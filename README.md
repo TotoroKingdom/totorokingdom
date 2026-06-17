@@ -14,8 +14,8 @@ Here are some ideas to get you started:
 - ⚡ Fun fact: ...
 这个人太懒了，以至于他什么也没有留下
 --> 
-- 🔭 I’m currently working on Genshin Impact Lottery Project
-- 🌱 I’m currently learning English,SpringCloud
+- 🔭 I’m currently working on ...
+- 🌱 I’m currently learning English & Agent
 - 📫 How to reach me: totorokingdom@foxmail.com
 
 [![genshin-image]][genshin-link]
