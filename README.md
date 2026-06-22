@@ -26,7 +26,7 @@
 
 - 🤖 AI Agents / LangChain / LangGraph / RAG
 - ⚙️ Backend Development & System Design
-- 🌐 Full-stack AI Applications
+- 🌐 Full-stack AI Applications / vibing coding
 - 🧩 Automation / Workflow / Tooling
 - 📚 Continuous learning in English & engineering fundamentals
 
