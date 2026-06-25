@@ -65,7 +65,7 @@
 
 - 🧠 Improving AI Agent architecture understanding  
 - 🛠 Building portfolio projects for job applications  
-- 📈 Strengthening English communication for interviews  
+- 📈 Strengthening English communication 
 - 🚀 Exploring real-world AI automation products  
 
 ---
