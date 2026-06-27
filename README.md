@@ -44,9 +44,9 @@
 | 领域 | 技术 |
 |------|------|
 | 🤖 AI 框架 | <img src="https://img.shields.io/badge/LangChain-1C3C3C?style=flat&logo=langchain&logoColor=white"/> <img src="https://img.shields.io/badge/LangGraph-00A86B?style=flat&logo=graph&logoColor=white"/> <img src="https://img.shields.io/badge/RAG-FF6B6B?style=flat&logo=ai&logoColor=white"/> |
-| ⚙️ 后端开发 | <img src="https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white"/> <img src="https://img.shields.io/badge/FastAPI-009688?style=flat&logo=fastapi&logoColor=white"/> <img src="https://img.shields.io/badge/Go-00ADD8?style=flat&logo=java&logoColor=white"/> |
-| 🌐 全栈 AI | <img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=flat&logo=streamlit&logoColor=white"/> <img src="https://img.shields.io/badge/Gradio-FF6F00?style=flat&logo=gradio&logoColor=white"/> |
-| 🧩 自动化 | <img src="https://img.shields.io/badge/Workflow-8A2BE2?style=flat&logo=automation&logoColor=white"/> <img src="https://img.shields.io/badge/Tooling-FF8C00?style=flat"/> |
+| ⚙️ 后端开发 | <img src="https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white"/> <img src="https://img.shields.io/badge/FastAPI-009688?style=flat&logo=fastapi&logoColor=white"/> <img src="https://img.shields.io/badge/Java-ED8B00?style=flat&logo=java&logoColor=white"/> |
+| 🌐 全栈 | <img src="https://img.shields.io/badge/React-20232A?style=flat&logo=react&logoColor=61DAFB"/> <img src="https://img.shields.io/badge/Next.js-000000?style=flat&logo=next.js&logoColor=white"/> |
+| 🧩 工具 | <img src="https://img.shields.io/badge/Codex-000000?style=flat&logo=openai&logoColor=white"/> <img src="https://img.shields.io/badge/Claude%20Cursor-5A5A5A?style=flat&logo=anthropic&logoColor=white"/> |
 
 </div>
 
@@ -63,7 +63,7 @@
 
 ---
 
-## 🎮 原神 · 胡桃专区
+## 🎮 原神 · 专区
 
 <div align="center">
 
@@ -105,7 +105,7 @@
 
 <img src="https://komarev.com/ghpvc/?username=TotoroKingdom&color=7E57C2&style=flat&label=✨+来访者" alt="visitor badge"/>
 
-**感谢你的停留，愿代码与你同在 ✨**
+**感谢你的停留，愿派蒙与你同在 ✨**
 
 </div>
 
