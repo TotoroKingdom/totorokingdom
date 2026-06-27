@@ -44,7 +44,7 @@
 | 领域 | 技术 |
 |------|------|
 | 🤖 AI 框架 | <img src="https://img.shields.io/badge/LangChain-1C3C3C?style=flat&logo=langchain&logoColor=white"/> <img src="https://img.shields.io/badge/LangGraph-00A86B?style=flat&logo=graph&logoColor=white"/> <img src="https://img.shields.io/badge/RAG-FF6B6B?style=flat&logo=ai&logoColor=white"/> |
-| ⚙️ 后端开发 | <img src="https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white"/> <img src="https://img.shields.io/badge/FastAPI-009688?style=flat&logo=fastapi&logoColor=white"/> <img src="https://img.shields.io/badge/Go-00ADD8?style=flat&logo=go&logoColor=white"/> |
+| ⚙️ 后端开发 | <img src="https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white"/> <img src="https://img.shields.io/badge/FastAPI-009688?style=flat&logo=fastapi&logoColor=white"/> <img src="https://img.shields.io/badge/Go-00ADD8?style=flat&logo=java&logoColor=white"/> |
 | 🌐 全栈 AI | <img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=flat&logo=streamlit&logoColor=white"/> <img src="https://img.shields.io/badge/Gradio-FF6F00?style=flat&logo=gradio&logoColor=white"/> |
 | 🧩 自动化 | <img src="https://img.shields.io/badge/Workflow-8A2BE2?style=flat&logo=automation&logoColor=white"/> <img src="https://img.shields.io/badge/Tooling-FF8C00?style=flat"/> |
 
