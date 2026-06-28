@@ -6,7 +6,7 @@
 
 ### *用代码编织世界，用 AI 探索未来*
 
-<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=18&duration=3000&pause=500&color=7E57C2&center=true&vCenter=true&width=500&lines=Backend+%26+AI+Engineer;LangChain+%2F+LangGraph+Builder;Automation+Enthusiast;%E6%9E%84%E5%BB%BA%E8%87%AA%E5%B7%B1%E7%9A%84%E6%95%B0%E5%AD%97%E4%B8%96%E7%95%8C" alt="Typing SVG" />
+<img src="[https://pixabay.com/illustrations/waves-dots-pattern-technology-7111758/](https://media.istockphoto.com/id/2188818713/zh/%E7%85%A7%E7%89%87/speed-lines-trail-from-night-city-lens-effect-technology-background.jpg?s=2048x2048&w=is&k=20&c=XrUWGTVefQRVlkQJCFNbImctt7Jt1V6erRhXzYOa0SU=)" alt="Typing SVG" />
 
 </div>
 
