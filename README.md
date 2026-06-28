@@ -1,4 +1,3 @@
-```markdown
 <!-- 🌌 TotoroKingdom GitHub Profile -->
 
 <div align="center">
@@ -7,7 +6,7 @@
 
 # 🌌 Hi, I'm TotoroKingdom
 
-### AI Engineer · Backend Developer · Builder of Intelligent Systems
+### AI Engineer · Backend Developer · AI Application Builder
 
 <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=22&duration=3000&pause=800&color=00F7FF&center=true&vCenter=true&width=700&lines=Building+AI+Agent+Systems+%F0%9F%A4%96;Exploring+LLM+%26+RAG+Architecture;Backend+Engineering+with+Python+%26+Java;Turning+Ideas+into+Products+%E2%9C%A8"/>
 
@@ -15,23 +14,24 @@
 
 </div>
 
+
 ---
 
-# 🧭 About Me
+## 🧭 About Me
 
-<div align="center">
 
 <table>
 <tr>
 
-<td width="55%">
+<td width="60%">
 
 ### 🚀 Currently Exploring
 
-- 🤖 **LLM Application Engineering**
-- 🧠 **AI Agent Architecture**
-- 🔍 **RAG / Knowledge Systems**
-- ⚙️ **High Performance Backend Systems**
+- 🤖 LLM Application Engineering
+- 🧠 AI Agent Architecture
+- 🔍 RAG Knowledge Systems
+- ⚙️ Backend System Design
+
 
 ### 🌱 Learning
 
@@ -39,34 +39,38 @@
 - Distributed Systems
 - AI Product Engineering
 
+
 ### 📮 Contact
 
-`totorokingdom@foxmail.com`
+📧 totorokingdom@foxmail.com
+
 
 </td>
 
-<td width="45%" align="center">
 
-<img src="https://cdn.pixabay.com/animation/2023/07/20/14/29/14-29-32-470_512.gif" width="180"/>
+<td width="40%" align="center">
+
+<img src="https://media.giphy.com/media/LmNwrBhejkK9EFP504/giphy.gif" width="150"/>
 
 </td>
+
 
 </tr>
 </table>
 
-</div>
-
 
 ---
 
-# 🧠 Tech Universe
+# 🧠 Tech Stack
+
 
 <div align="center">
 
-### 🤖 AI Engineering
+
+### 🤖 AI
 
 <img src="https://img.shields.io/badge/LLM-000000?style=for-the-badge&logo=openai&logoColor=white"/>
-<img src="https://img.shields.io/badge/RAG-FF6F61?style=for-the-badge&logo=databricks&logoColor=white"/>
+<img src="https://img.shields.io/badge/RAG-FF6B6B?style=for-the-badge"/>
 <img src="https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge"/>
 <img src="https://img.shields.io/badge/LangGraph-00A86B?style=for-the-badge"/>
 
@@ -74,11 +78,11 @@
 ### ⚙️ Backend
 
 <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
-<img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white"/>
-<img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white"/>
+<img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi"/>
+<img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk"/>
 
 
-### 🌐 Full Stack
+### 🌐 Frontend
 
 <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react"/>
 <img src="https://img.shields.io/badge/Next.js-black?style=for-the-badge&logo=next.js"/>
@@ -88,7 +92,7 @@
 
 <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker"/>
 <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux"/>
-<img src="https://img.shields.io/badge/GitHub-AI%20Workflow-black?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Git-GitHub-black?style=for-the-badge&logo=git"/>
 
 
 </div>
@@ -96,7 +100,26 @@
 
 ---
 
-# 📊 GitHub Analytics
+# 🚀 Featured Projects
+
+
+<div align="center">
+
+
+| Project | Description |
+|-|-|
+| 🤖 AI Assistant | RAG + LangGraph + FastAPI intelligent assistant |
+| 🧠 Agent Platform | Multi-Agent workflow system |
+| ⚡ Backend System | High performance distributed services |
+
+
+</div>
+
+
+---
+
+# 📊 GitHub Stats
+
 
 <div align="center">
 
@@ -114,12 +137,14 @@ src="https://github-readme-stats-kallkago.vercel.app/api/top-langs/?username=Tot
 
 ---
 
-# 🐍 Contribution Journey
+# 🐍 Contribution Snake
 
 
 <div align="center">
 
+
 <img src="https://github.com/TotoroKingdom/TotoroKingdom/blob/output/github-contribution-grid-snake.svg"/>
+
 
 </div>
 
@@ -131,27 +156,34 @@ src="https://github-readme-stats-kallkago.vercel.app/api/top-langs/?username=Tot
 
 <div align="center">
 
-<img src="https://genshin-card-kallka.vercel.app/rand/310652688.png"
-width="400"/>
+
+<img src="https://genshin-card-kallka.vercel.app/rand/310652688.png" width="420"/>
 
 
-> "愿风神护佑你的旅途 ✨"
+<br>
+
+
+*"愿派蒙与你同在 ✨"*
+
 
 </div>
 
 
 ---
 
-# 🌠 Developer Diary
+# 🌌 Developer Diary
+
 
 <div align="center">
 
-| 🌌 | Message |
+
+| 🌟 | Message |
 |-|-|
 | 🤖 | Building my own AI world |
-| ☕ | Coffee + Code = Infinite Possibility |
-| 🎧 | Coding with music creates magic |
-| 🚀 | One commit closer to the future |
+| ☕ | Coffee + Code = Magic |
+| 🎧 | Music makes coding better |
+| 🚀 | One commit closer to future |
+
 
 </div>
 
@@ -166,22 +198,28 @@ width="400"/>
 
 | 🧠 | 🛠 | 🌍 | 🚀 |
 |-|-|-|-|
-| Master AI Agent | Build Portfolio | Improve English | Ship Products |
+| Master AI Agent | Build Projects | Improve English | Ship Products |
+
 
 </div>
 
 
 ---
 
+
 <div align="center">
 
 
-<img src="https://komarev.com/ghpvc/?username=TotoroKingdom&style=flat&color=blueviolet"/>
+<img src="https://komarev.com/ghpvc/?username=TotoroKingdom&style=flat&color=7E57C2&label=Visitors"/>
+
+
+<br>
 
 
 ### ✨ Thanks for visiting
 
+
 **May AI and imagination guide your journey 🌌**
 
+
 </div>
-```
