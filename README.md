@@ -10,7 +10,7 @@
 
 <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=22&duration=3000&pause=800&color=00F7FF&center=true&vCenter=true&width=700&lines=Building+AI+Agent+Systems+%F0%9F%A4%96;Exploring+LLM+%26+RAG+Architecture;Backend+Engineering+with+Python+%26+Java;Turning+Ideas+into+Products+%E2%9C%A8"/>
 
-<img src="https://cdn.pixabay.com/photo/2020/04/12/15/32/artificial-intelligence-5035933_1280.jpg" width="700"/>
+<!-- <img src="https://cdn.pixabay.com/photo/2020/04/12/15/32/artificial-intelligence-5035933_1280.jpg" width="700"/> -->
 
 </div>
 
