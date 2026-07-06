@@ -16,11 +16,6 @@
 
 ## 🧭 About Me
 
-<table>
-<tr>
-
-<td width="55%" valign="top">
-
 ### 🚀 Currently Exploring
 
 * 🤖 LLM Application Engineering
@@ -42,21 +37,6 @@
 ### 🚪 Explore My AI World
 
 🌌 **[Enter My AI World →](http://1.12.47.29:8082/)**
-
-</td>
-
-<td width="45%" align="center" valign="middle">
-
-<img src="https://media.giphy.com/media/LmNwrBhejkK9EFP504/giphy.gif" width="100%"/>
-
-<br/>
-
-<b>Building intelligent systems,<br/>one project at a time.</b>
-
-</td>
-
-</tr>
-</table>
 
 ---
 
