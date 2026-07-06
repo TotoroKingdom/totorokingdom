@@ -2,81 +2,108 @@
 
 <div align="center">
 
-<img src="https://media.giphy.com/media/hvRJCLFzcasRrR4ia7z/giphy.gif" width="35"/>
-
-# 🌌 Hi, I'm TotoroKingdom
+# 🌌 TotoroKingdom
 
 ### AI Engineer · Backend Developer · AI Application Builder
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=22&duration=3000&pause=800&color=00F7FF&center=true&vCenter=true&width=700&lines=Building+AI+Agent+Systems+%F0%9F%A4%96;Exploring+LLM+%26+RAG+Architecture;Backend+Engineering+with+Python+%26+Java;Turning+Ideas+into+Products+%E2%9C%A8"/>
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=22&duration=2800&pause=700&color=00F7FF&center=true&vCenter=true&width=760&lines=Initializing+AI+Agent+Systems...;Deploying+RAG+Knowledge+Engines...;Building+Backend+Infrastructure...;Turning+Ideas+into+Products..."/>
+
+<br/>
+
+```txt
+> SYSTEM STATUS: ONLINE
+> MISSION: BUILD INTELLIGENT APPLICATIONS
+> STACK: AI AGENT · RAG · FASTAPI · JAVA · NEXT.JS
+```
 
 </div>
 
 ---
 
-## 🧭 About Me
+## 🛰️ Profile Signal
 
-### 🚀 Currently Exploring
+```txt
+[IDENTITY]  TotoroKingdom
+[ROLE]      AI Engineer / Backend Developer / AI Application Builder
+[MISSION]   Build production-ready AI applications and intelligent systems
+[PORTAL]    http://1.12.47.29:8082/
+[CONTACT]   totorokingdom@foxmail.com
+```
 
-* 🤖 LLM Application Engineering
-* 🧠 AI Agent Architecture
-* 🔍 RAG Knowledge Systems
-* ⚙️ Backend System Design
+I am focused on building AI application systems that combine backend engineering, LLM capability, RAG knowledge retrieval, Agent workflow orchestration, and product-level user experience.
 
-### 🌱 Currently Learning
-
-* 🌍 English Communication
-* ⚡ Distributed Systems
-* 🧩 AI Product Engineering
-* 🔧 Production-Ready AI Systems
-
-### 📮 Contact
-
-📧 **Email:** [totorokingdom@foxmail.com](mailto:totorokingdom@foxmail.com)
-
-### 🚪 Explore My AI World
-
-🌌 **[Enter My AI World →](http://1.12.47.29:8082/)**
+My current direction is to turn AI ideas into usable products, not just demos. I am especially interested in AI Agent systems, RAG architecture, backend service design, and production-ready AI engineering.
 
 ---
 
-# 🧠 Tech Stack
+## 🧭 Navigation
+
+<div align="center">
+
+|    Module   | Entry                                                         |
+| :---------: | :------------------------------------------------------------ |
+| 🌌 AI World | [Enter My AI World →](http://1.12.47.29:8082/)                |
+|   📮 Email  | [totorokingdom@foxmail.com](mailto:totorokingdom@foxmail.com) |
+|   🤖 Focus  | AI Agent · RAG · Backend · Product Engineering                |
+
+</div>
+
+---
+
+# 🧠 Core Research Zone
+
+<div align="center">
+
+| Area                           | Status        |
+| :----------------------------- | :------------ |
+| 🤖 LLM Application Engineering | Building      |
+| 🧠 AI Agent Architecture       | Exploring     |
+| 🔍 RAG Knowledge Systems       | Developing    |
+| ⚙️ Backend System Design       | Strengthening |
+| 🌍 English Communication       | Improving     |
+| 🧩 AI Product Engineering      | Practicing    |
+
+</div>
+
+---
+
+# 🛠️ Technology Arsenal
 
 <div align="center">
 
 ### 🤖 AI Engineering
 
-<img src="https://img.shields.io/badge/LLM-000000?style=for-the-badge&logo=openai&logoColor=white"/>
-<img src="https://img.shields.io/badge/RAG-FF6B6B?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/AI_Agent-6C63FF?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/LangGraph-00A86B?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/LLM-050B1E?style=for-the-badge&logo=openai&logoColor=00F7FF"/>
+<img src="https://img.shields.io/badge/RAG-111827?style=for-the-badge&logoColor=white"/>
+<img src="https://img.shields.io/badge/AI_Agent-2A1458?style=for-the-badge&logoColor=white"/>
+<img src="https://img.shields.io/badge/LangChain-0B3B3B?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/LangGraph-003B2F?style=for-the-badge"/>
 
-<br/>
+<br/><br/>
 
 ### ⚙️ Backend Engineering
 
-<img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
-<img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white"/>
-<img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white"/>
-<img src="https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white"/>
+<img src="https://img.shields.io/badge/Python-102A43?style=for-the-badge&logo=python&logoColor=00F7FF"/>
+<img src="https://img.shields.io/badge/FastAPI-003B46?style=for-the-badge&logo=fastapi&logoColor=00F7FF"/>
+<img src="https://img.shields.io/badge/Java-3A1F04?style=for-the-badge&logo=openjdk&logoColor=FFB000"/>
+<img src="https://img.shields.io/badge/Redis-3A0505?style=for-the-badge&logo=redis&logoColor=FF4D4D"/>
 
-<br/>
+<br/><br/>
 
-### 🌐 Frontend
+### 🌐 Frontend Interface
 
-<img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB"/>
+<img src="https://img.shields.io/badge/React-0B1026?style=for-the-badge&logo=react&logoColor=61DAFB"/>
 <img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white"/>
-<img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white"/>
+<img src="https://img.shields.io/badge/TypeScript-061B3A?style=for-the-badge&logo=typescript&logoColor=38BDF8"/>
 
-<br/>
+<br/><br/>
 
-### 🛠 Engineering Tools
+### 🛰️ Engineering Tools
 
-<img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white"/>
-<img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black"/>
-<img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white"/>
-<img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/>
+<img src="https://img.shields.io/badge/Docker-071A2D?style=for-the-badge&logo=docker&logoColor=38BDF8"/>
+<img src="https://img.shields.io/badge/Linux-1F2937?style=for-the-badge&logo=linux&logoColor=FACC15"/>
+<img src="https://img.shields.io/badge/Git-2A0F0F?style=for-the-badge&logo=git&logoColor=F97316"/>
+<img src="https://img.shields.io/badge/GitHub-080808?style=for-the-badge&logo=github&logoColor=white"/>
 
 </div>
 
@@ -86,17 +113,18 @@
 
 <div align="center">
 
-| Project               | Tech Stack                      | Description                                                 |
-| :-------------------- | :------------------------------ | :---------------------------------------------------------- |
-| 🤖 **AI Assistant**   | RAG · LangGraph · FastAPI       | Intelligent assistant with knowledge retrieval and citation |
-| 🧠 **Agent Platform** | Agent · Tool Calling · Workflow | Multi-Agent workflow and orchestration system               |
-| ⚡ **Backend System**  | FastAPI · Redis · Docker        | High-performance backend service architecture               |
+| Project                | Tech Stack                      | Mission                                                              |
+| :--------------------- | :------------------------------ | :------------------------------------------------------------------- |
+| 🤖 **AI Assistant**    | RAG · LangGraph · FastAPI       | Build an intelligent assistant with knowledge retrieval and citation |
+| 🧠 **Agent Platform**  | Agent · Tool Calling · Workflow | Explore multi-agent orchestration and tool-use systems               |
+| ⚡ **Backend System**   | FastAPI · Redis · Docker        | Design reliable backend services for AI applications                 |
+| 🌌 **AI World Portal** | Next.js · FastAPI · AI Apps     | Build a personal AI application showcase platform                    |
 
 </div>
 
 ---
 
-# 📊 GitHub Stats
+# 📊 GitHub Control Panel
 
 <div align="center">
 
@@ -108,7 +136,7 @@
 
 ---
 
-# 🎮 Genshin Corner
+# 🎮 Genshin Signal
 
 <div align="center">
 
@@ -116,22 +144,27 @@
 
 <br/><br/>
 
+```txt
+Paimon Protocol Activated ✨
+```
+
 *"愿派蒙与你同在 ✨"*
 
 </div>
 
 ---
 
-# 🌌 Developer Diary
+# 🌌 Developer Log
 
 <div align="center">
 
-|  🌟 | Message                         |
-| :-: | :------------------------------ |
-|  🤖 | Building my own AI world        |
-|  ☕  | Coffee + Code = Magic           |
-|  🎧 | Music makes coding better       |
-|  🚀 | One commit closer to the future |
+| Signal | Message                           |
+| :----: | :-------------------------------- |
+|   🤖   | Building my own AI world          |
+|    ☕   | Coffee + Code = Magic             |
+|   🎧   | Music makes coding better         |
+|   🚀   | One commit closer to the future   |
+|   🛰️  | Systems online, mission continues |
 
 </div>
 
@@ -141,9 +174,9 @@
 
 <div align="center">
 
-|        🧠        |         🛠️         |        🌍       |       🚀      |
-| :--------------: | :-----------------: | :-------------: | :-----------: |
-| Master AI Agents | Build Real Projects | Improve English | Ship Products |
+|      🧠 AI Agent     |   🛠️ Engineering   |       🌍 English      |     🚀 Product    |
+| :------------------: | :-----------------: | :-------------------: | :---------------: |
+| Master Agent Systems | Build Real Projects | Improve Communication | Ship Applications |
 
 </div>
 
@@ -151,12 +184,15 @@
 
 <div align="center">
 
-<img src="https://komarev.com/ghpvc/?username=TotoroKingdom&style=flat&color=7E57C2&label=Visitors"/>
+<img src="https://komarev.com/ghpvc/?username=TotoroKingdom&style=flat&color=00F7FF&label=Visitors"/>
 
 <br/><br/>
 
-### ✨ Thanks for visiting
+```txt
+> THANKS FOR VISITING
+> MAY AI AND IMAGINATION GUIDE YOUR JOURNEY
+```
 
-**May AI and imagination guide your journey 🌌**
+### 🌌 See you in the next deployment.
 
 </div>
