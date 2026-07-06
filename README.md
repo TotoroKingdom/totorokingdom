@@ -14,11 +14,9 @@
 
 </div>
 
-
 ---
 
 ## 🧭 About Me
-
 
 <table>
 <tr>
@@ -32,28 +30,27 @@
 - 🔍 RAG Knowledge Systems
 - ⚙️ Backend System Design
 
-
 ### 🌱 Learning
 
 - English Communication
 - Distributed Systems
 - AI Product Engineering
 
-
 ### 📮 Contact
 
 📧 totorokingdom@foxmail.com
 
+### 🚪 传送门
+
+👉 [点击进入我的AI世界](http://1.12.47.29:8082/)
 
 </td>
-
 
 <td width="40%" align="center">
 
 <img src="https://media.giphy.com/media/LmNwrBhejkK9EFP504/giphy.gif" width="150"/>
 
 </td>
-
 
 </tr>
 </table>
