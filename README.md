@@ -18,7 +18,7 @@
 
 ## 🛰️ Mission Profile
 
-I am building my own AI application world, focused on **LLM applications, RAG systems, AI Agent architecture, backend engineering, and product-oriented AI systems**.
+I am building my own AI application world, focused on **LLM applications, RAG systems, AI Agent architecture, Agentic, and product-oriented AI systems**.
 
 My goal is not only to explore AI technology, but also to turn ideas into real, usable, and deployable products.
 
