@@ -140,7 +140,7 @@ My goal is not only to explore AI technology, but also to turn ideas into real, 
 
 |       AI Agent       |     Engineering     |        English        |      Product      |
 | :------------------: | :-----------------: | :-------------------: | :---------------: |
-| Master Agent Systems | Build Real Projects | Improve Communication | Ship Applications |
+| Master Agent Systems | Build Agentic Projects | Improve Communication | Ship Applications |
 
 ---
 
