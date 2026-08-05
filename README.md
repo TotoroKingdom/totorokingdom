@@ -3,11 +3,11 @@
 <h1 align="center">🌌 TotoroKingdom</h1>
 
 <p align="center">
-  <b>AI Engineer · Backend Developer · AI Application Builder</b>
+  <b>AI Engineer · Backend Developer · LLM Systems Explorer</b>
 </p>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=22&duration=2800&pause=800&color=00F7FF&center=true&vCenter=true&width=760&lines=Initializing+AI+Agent+Systems...;Deploying+RAG+Knowledge+Engines...;Engineering+Backend+Infrastructure...;Turning+Ideas+into+Products..." />
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=22&duration=2800&pause=800&color=00F7FF&center=true&vCenter=true&width=800&lines=Engineering+Production-Ready+AI+Systems...;Studying+Transformer+Internals...;Optimizing+LLM+Inference...;Turning+Ideas+into+Deployable+Products..." />
 </p>
 
 <p align="center">
@@ -18,112 +18,323 @@
 
 ## 🛰️ Mission Profile
 
-I am building my own AI application world, focused on **LLM applications, RAG systems, AI Agent architecture, Agentic, and product-oriented AI systems**.
+I build **production-oriented AI applications and backend systems**, with practical experience in:
 
-My goal is not only to explore AI technology, but also to turn ideas into real, usable, and deployable products.
+* RAG systems
+* AI Agents
+* Tool calling and MCP
+* Agent memory and checkpointing
+* Workflow orchestration
+* Backend architecture
+* AI application deployment
+
+My current long-term direction is to move deeper into **Transformer fundamentals and LLM inference engineering**.
+
+I want to understand not only how to call a model, but also:
+
+* How the model works
+* How inference is executed
+* Where latency and memory are consumed
+* How inference frameworks optimize execution
+* How reliable production AI systems are designed
 
 ---
 
 ## 🧭 Navigation
 
-| Module             | Entry                                                         |
-| :----------------- | :------------------------------------------------------------ |
-| 🌌 AI World Portal | [Enter My AI World →](http://1.12.47.29:8082/)                |
-| 📮 Email           | [totorokingdom@foxmail.com](mailto:totorokingdom@foxmail.com) |
-| 🤖 Focus           | AI Agent · RAG · FastAPI · Backend Engineering                |
+| Module             | Entry                                                           |
+| :----------------- | :-------------------------------------------------------------- |
+| 🌌 AI World Portal | [Enter My AI World →](http://1.12.47.29:8082/)                  |
+| 📮 Email           | [totorokingdom@foxmail.com](mailto:totorokingdom@foxmail.com)   |
+| 🎯 Direction       | AI Applications → Transformer Internals → LLM Inference Systems |
 
 ---
 
-## 🧠 About Me
+## 🎯 Engineering Focus
 
-### 🚀 Currently Exploring
-
-* 🤖 LLM Application Engineering
-* 🧠 AI Agent Architecture
-* 🔍 RAG Knowledge Systems
-* ⚙️ Backend System Design
-
-### 🌱 Currently Learning
-
-* 🌍 English Communication
-* ⚡ Distributed Systems
-* 🧩 AI Product Engineering
-* 🔧 Production-Ready AI Systems
+| Area                        | What I Build and Study                                                                                   |
+| :-------------------------- | :------------------------------------------------------------------------------------------------------- |
+| 🤖 **AI Agent Systems**     | Agent loops, context assembly, tool routing, memory, checkpointing, HITL, MCP and workflow orchestration |
+| 🔍 **RAG Systems**          | Parsing, chunking, hybrid retrieval, RRF, reranking, citations, permission filtering and evaluation      |
+| 🧠 **LLM Fundamentals**     | Tokenization, embeddings, attention, Transformer blocks, training objectives and alignment               |
+| ⚡ **LLM Inference**         | Prefill, decode, KV Cache, batching, quantization, decoding strategies, memory usage and serving engines |
+| 🛰️ **Backend Engineering** | FastAPI, distributed systems, caching, databases, message queues, containers and observability           |
 
 ---
 
 ## 🛠️ Technology Arsenal
 
-### 🤖 AI Engineering
+### 🤖 AI & LLM Engineering
 
 <p>
   <img src="https://img.shields.io/badge/LLM-050B1E?style=for-the-badge&logo=openai&logoColor=00F7FF" />
-  <img src="https://img.shields.io/badge/RAG-111827?style=for-the-badge&logoColor=white" />
-  <img src="https://img.shields.io/badge/AI_Agent-2A1458?style=for-the-badge&logoColor=white" />
+  <img src="https://img.shields.io/badge/RAG-111827?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/AI_Agent-2A1458?style=for-the-badge" />
   <img src="https://img.shields.io/badge/LangChain-0B3B3B?style=for-the-badge" />
   <img src="https://img.shields.io/badge/LangGraph-003B2F?style=for-the-badge" />
 </p>
 
-### ⚙️ Backend Engineering
+### ⚙️ Backend, Data & Delivery
 
 <p>
   <img src="https://img.shields.io/badge/Python-102A43?style=for-the-badge&logo=python&logoColor=00F7FF" />
   <img src="https://img.shields.io/badge/FastAPI-003B46?style=for-the-badge&logo=fastapi&logoColor=00F7FF" />
   <img src="https://img.shields.io/badge/Java-3A1F04?style=for-the-badge&logo=openjdk&logoColor=FFB000" />
+  <img src="https://img.shields.io/badge/PostgreSQL-0A2342?style=for-the-badge&logo=postgresql&logoColor=60A5FA" />
   <img src="https://img.shields.io/badge/Redis-3A0505?style=for-the-badge&logo=redis&logoColor=FF4D4D" />
-</p>
-
-### 🌐 Frontend Interface
-
-<p>
-  <img src="https://img.shields.io/badge/React-0B1026?style=for-the-badge&logo=react&logoColor=61DAFB" />
-  <img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white" />
-  <img src="https://img.shields.io/badge/TypeScript-061B3A?style=for-the-badge&logo=typescript&logoColor=38BDF8" />
-</p>
-
-### 🛰️ Engineering Tools
-
-<p>
+  <img src="https://img.shields.io/badge/Milvus-061B2D?style=for-the-badge&logoColor=00F7FF" />
   <img src="https://img.shields.io/badge/Docker-071A2D?style=for-the-badge&logo=docker&logoColor=38BDF8" />
   <img src="https://img.shields.io/badge/Linux-1F2937?style=for-the-badge&logo=linux&logoColor=FACC15" />
-  <img src="https://img.shields.io/badge/Git-2A0F0F?style=for-the-badge&logo=git&logoColor=F97316" />
-  <img src="https://img.shields.io/badge/GitHub-080808?style=for-the-badge&logo=github&logoColor=white" />
+  <img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white" />
 </p>
 
 ---
 
 ## 🚀 Featured Projects
 
-| Project                | Tech Stack                      | Mission                                                              |
-| :--------------------- | :------------------------------ | :------------------------------------------------------------------- |
-| 🤖 **AI Assistant**    | RAG · LangGraph · FastAPI       | Build an intelligent assistant with knowledge retrieval and citation |
-| 🧠 **Agent Platform**  | Agent · Tool Calling · Workflow | Explore multi-agent orchestration and tool-use systems               |
-| ⚡ **Backend System**   | FastAPI · Redis · Docker        | Design reliable backend services for AI applications                 |
-| 🌌 **AI World Portal** | Next.js · FastAPI · AI Apps     | Build a personal AI application showcase platform                    |
+| Project                       | Core Stack                                      | Engineering Mission                                                                                               |
+| :---------------------------- | :---------------------------------------------- | :---------------------------------------------------------------------------------------------------------------- |
+| 🤖 **AI Knowledge Assistant** | LangGraph · RAG · FastAPI · Milvus              | Build a permission-aware knowledge assistant with hybrid retrieval, reranking, citations and multi-session memory |
+| 🧠 **Agent Runtime Lab**      | Agent Loop · Tool Calling · MCP · Checkpoint    | Explore context assembly, tool dispatch, memory compression, human approval and failure recovery                  |
+| 🌌 **AI World Portal**        | Next.js · FastAPI · Redis · PostgreSQL · Docker | Build and deploy a personal platform for demonstrating practical AI applications                                  |
+| ⚡ **Backend Infrastructure**  | Python · Java · Redis · Database · Messaging    | Design reliable services and distributed components that support production AI workloads                          |
 
 ---
 
-## 📚 50‑Week Learning Roadmap (2026-08-05 ~ 2027-07-21)
+## 🗺️ 52-Week Learning Roadmap
 
-> **Target:** LLM Inference & High‑Performance Computing Engineer  
-> **Commitment:** 17h/week (1h weekdays + 6h weekends)  
-> **Focus:** 70% new low‑level knowledge · 20% integration · 10% interview prep
+<p>
+  <img src="https://img.shields.io/badge/Duration-52_Weeks-111827?style=flat-square" />
+  <img src="https://img.shields.io/badge/Weekly_Time-15_Hours-111827?style=flat-square" />
+  <img src="https://img.shields.io/badge/Start-2026--08--10-111827?style=flat-square" />
+  <img src="https://img.shields.io/badge/Finish-2027--08--08-111827?style=flat-square" />
+</p>
 
-| Phase | Weeks | Core Topics | Milestone Project |
-| :---: | :--- | :--- | :--- |
-| **1** | 1–5 | Math foundations (LinAlg/Prob/Optim) + NumPy 2‑layer NN | Hand‑coded backprop on MNIST |
-| **2** | 6–10 | Transformer internals – Self‑Attention, RoPE, FFN, LayerNorm | NumPy transformer from scratch |
-| **3** | 11–15 | Autoregressive generation, KV Cache, Prefill/Decode | PyTorch GPT with KV cache, profiling |
-| **4** | 16–20 | Model compression – Quantization (GPTQ/AWQ), Pruning, Distillation | INT4 quantized LLaMA‑2‑7B report |
-| **5** | 21–25 | Inference engines – vLLM (PagedAttention), TensorRT‑LLM | Deploy + benchmark vLLM service |
-| **6** | 26–30 | CUDA programming & kernel optimization | Custom matmul/attention kernels |
-| **7** | 31–35 | Distributed inference – Tensor/Pipeline parallelism, DeepSpeed | Multi‑GPU inference setup |
-| **8** | 36–40 | Service deployment – Docker, K8s, monitoring, autoscaling | Scalable inference cluster on minikube |
-| **9** | 41–45 | End‑to‑end project – full optimization pipeline + RAG integration | Complete inference platform with ADR |
-| **10**| 46–50 | System design interviews, open‑source contribution, portfolio | Tech blog, demo video, PR to vLLM |
+> Build a source-level understanding of **Transformer architecture and LLM inference**, then convert that knowledge into reproducible code, benchmarks, technical notes and a complete engineering project.
 
-> 📌 **Progress:** Each phase will be tracked in the [Learning Journal](https://github.com/TotoroKingdom/learning-journal) (coming soon).  
-> 🎯 **Checkpoints:** After each phase, a self‑assessment or mock interview will be conducted to validate skills.
+### Phase 1 — Mathematical and Deep Learning Foundations
+
+**Weeks 1–8**
+
+Core topics:
+
+* Linear algebra
+* Probability and statistics
+* Calculus and gradients
+* Optimization algorithms
+* Neural network fundamentals
+* PyTorch tensors
+* Autograd
+* Model training loops
+
+Expected output:
+
+* Implement basic neural networks
+* Write custom training loops
+* Explain backpropagation
+* Publish foundation notes and experiments
+
+---
+
+### Phase 2 — Transformer Internals
+
+**Weeks 9–18**
+
+Core topics:
+
+* Tokenization
+* Embeddings
+* Positional encoding
+* Self-attention
+* Multi-head attention
+* Causal masking
+* Residual connections
+* Layer normalization
+* Feed-forward networks
+* Decoder-only Transformer
+
+Expected output:
+
+* Implement a small Transformer
+* Trace every important tensor dimension
+* Explain the complete forward process
+* Train a small language model
+
+---
+
+### Phase 3 — LLM Training and Alignment
+
+**Weeks 19–28**
+
+Core topics:
+
+* Training data pipelines
+* Pretraining objectives
+* Optimizers and learning-rate scheduling
+* Mixed-precision training
+* Gradient accumulation
+* Distributed training fundamentals
+* Supervised fine-tuning
+* LoRA and parameter-efficient fine-tuning
+* Knowledge distillation
+* Alignment fundamentals
+
+Expected output:
+
+* Complete a small-model fine-tuning experiment
+* Compare full fine-tuning and LoRA
+* Track training metrics
+* Document quality and resource trade-offs
+
+---
+
+### Phase 4 — LLM Inference Mechanics
+
+**Weeks 29–38**
+
+Core topics:
+
+* Prefill and decode
+* Autoregressive generation
+* KV Cache
+* Sampling strategies
+* Greedy decoding
+* Top-K and Top-P sampling
+* Beam search
+* Dynamic batching
+* Continuous batching
+* Quantization
+* FlashAttention
+* Speculative decoding
+* Memory and compute bottlenecks
+
+Expected output:
+
+* Build an inference benchmark
+* Measure TTFT and TPOT
+* Compare latency and throughput
+* Analyze GPU or CPU memory usage
+* Explain optimization trade-offs
+
+---
+
+### Phase 5 — Serving and Distributed Inference
+
+**Weeks 39–46**
+
+Core topics:
+
+* Model serving architecture
+* Request scheduling
+* Continuous batching
+* Prefix caching
+* Tensor parallelism
+* Pipeline parallelism
+* Data parallelism
+* vLLM architecture
+* Text Generation Inference
+* Distributed inference
+* Observability
+* Rate limiting
+* Failure handling
+
+Expected output:
+
+* Deploy an inference service
+* Support concurrent requests
+* Record performance metrics
+* Produce an architecture report
+* Compare multiple serving solutions
+
+---
+
+### Phase 6 — Source Study and Capstone Project
+
+**Weeks 47–52**
+
+Core topics:
+
+* Read Transformer framework source code
+* Trace model loading
+* Trace tokenizer processing
+* Trace prefill and decode
+* Trace KV Cache management
+* Trace request scheduling
+* Analyze batching implementation
+* Integrate inference optimizations
+* Document architecture decisions
+
+Expected output:
+
+* Build a mini inference runtime or optimized serving system
+* Publish source-code analysis notes
+* Provide reproducible benchmark scripts
+* Complete a technical architecture document
+* Deliver a production-style capstone project
+
+---
+
+<details>
+<summary><b>📚 Weekly Study Rhythm</b></summary>
+
+<br />
+
+| Day           |   Study Time   | Main Activity                                        |
+| :------------ | :------------: | :--------------------------------------------------- |
+| Monday–Friday | 1 hour per day | Theory, source reading and focused coding            |
+| Saturday      |     5 hours    | Implementation, experiments and project development  |
+| Sunday        |     5 hours    | Review, documentation, testing and weekly acceptance |
+| **Total**     |  **15 hours**  | Continuous learning and verifiable delivery          |
+
+</details>
+
+<details>
+<summary><b>✅ Progress Gate</b></summary>
+
+<br />
+
+A learning unit advances only when it is **completed and verified**.
+
+Each check-in records:
+
+* Completion status
+* Actual study time
+* Code or technical notes
+* Experiment or benchmark results
+* Problems and unresolved questions
+* Next action
+
+Possible statuses:
+
+| Status                 | Meaning                                                 |
+| :--------------------- | :------------------------------------------------------ |
+| ✅ Completed            | Learning target and verifiable output are both finished |
+| 🟡 Partially Completed | Some content or output remains unfinished               |
+| 🔴 Incomplete          | The planned unit was not effectively completed          |
+| ⏸️ Blocked             | Progress is blocked by an unresolved technical issue    |
+
+Partially completed, incomplete and blocked units remain active in the following study session instead of being skipped because the calendar date has passed.
+
+</details>
+
+<details>
+<summary><b>🎓 Final Capability Target</b></summary>
+
+<br />
+
+By the end of the roadmap, I should be able to:
+
+* Explain the complete Transformer forward process
+* Implement a small decoder-only language model
+* Understand the LLM training and fine-tuning pipeline
+* Analyze prefill, decode and KV Cache
+* Benchmark latency, throughput and memory
+* Explain quantization and batching strategies
+* Read the core logic of an inference framework
+* Deploy and optimize an LLM inference service
+* Design the backend architecture around a production AI system
+
+</details>
 
 ---
 
@@ -148,28 +359,8 @@ My goal is not only to explore AI technology, but also to turn ideas into real, 
 
 ---
 
-## 🌌 Developer Log
-
-| Signal | Message                           |
-| :----: | :-------------------------------- |
-|   🤖   | Building my own AI world          |
-|    ☕   | Coffee + Code = Magic             |
-|   🎧   | Music makes coding better         |
-|   🚀   | One commit closer to the future   |
-|   🛰️  | Systems online, mission continues |
-
----
-
-## ⚡ Current Mission
-
-|       AI Agent       |     Engineering     |        English        |      Product      |
-| :------------------: | :-----------------: | :-------------------: | :---------------: |
-| Master Agent Systems | Build Agentic Projects | Improve Communication | Ship Applications |
-
----
-
 <p align="center">
-  <b>May AI and imagination guide your journey.</b>
+  <b>Build deeply. Learn continuously. Ship systems that work.</b>
 </p>
 
 <p align="center">
