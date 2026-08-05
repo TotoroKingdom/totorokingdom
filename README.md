@@ -103,6 +103,30 @@ My goal is not only to explore AI technology, but also to turn ideas into real, 
 
 ---
 
+## 📚 50‑Week Learning Roadmap (2026-08-05 ~ 2027-07-21)
+
+> **Target:** LLM Inference & High‑Performance Computing Engineer  
+> **Commitment:** 17h/week (1h weekdays + 6h weekends)  
+> **Focus:** 70% new low‑level knowledge · 20% integration · 10% interview prep
+
+| Phase | Weeks | Core Topics | Milestone Project |
+| :---: | :--- | :--- | :--- |
+| **1** | 1–5 | Math foundations (LinAlg/Prob/Optim) + NumPy 2‑layer NN | Hand‑coded backprop on MNIST |
+| **2** | 6–10 | Transformer internals – Self‑Attention, RoPE, FFN, LayerNorm | NumPy transformer from scratch |
+| **3** | 11–15 | Autoregressive generation, KV Cache, Prefill/Decode | PyTorch GPT with KV cache, profiling |
+| **4** | 16–20 | Model compression – Quantization (GPTQ/AWQ), Pruning, Distillation | INT4 quantized LLaMA‑2‑7B report |
+| **5** | 21–25 | Inference engines – vLLM (PagedAttention), TensorRT‑LLM | Deploy + benchmark vLLM service |
+| **6** | 26–30 | CUDA programming & kernel optimization | Custom matmul/attention kernels |
+| **7** | 31–35 | Distributed inference – Tensor/Pipeline parallelism, DeepSpeed | Multi‑GPU inference setup |
+| **8** | 36–40 | Service deployment – Docker, K8s, monitoring, autoscaling | Scalable inference cluster on minikube |
+| **9** | 41–45 | End‑to‑end project – full optimization pipeline + RAG integration | Complete inference platform with ADR |
+| **10**| 46–50 | System design interviews, open‑source contribution, portfolio | Tech blog, demo video, PR to vLLM |
+
+> 📌 **Progress:** Each phase will be tracked in the [Learning Journal](https://github.com/TotoroKingdom/learning-journal) (coming soon).  
+> 🎯 **Checkpoints:** After each phase, a self‑assessment or mock interview will be conducted to validate skills.
+
+---
+
 ## 📊 GitHub Control Panel
 
 <p align="center">
