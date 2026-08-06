@@ -101,178 +101,58 @@ I want to understand not only how to call a model, but also:
 
 ---
 
-## 🗺️ 52-Week Learning Roadmap
+## 🗺️ AI-Agent architect Learning Roadmap
+### 数学
+线性代数
+微积分
+概率论
+### 机器学习基础
+  |
+  ├── 神经网络基础
+  ├── 反向传播
+  ├── 优化算法
+  └── Loss函数
+### pytorch
+  |
+  ├── Tensor
+  ├── Autograd
+  ├── Module
+  ├── Training Loop
+  └── GPU/CUDA基础
+### transform
+  |
+  ├── Attention
+  ├── Multi-Head Attention
+  ├── Positional Encoding
+  ├── FFN
+  ├── LayerNorm
+  └── Transformer Block
+### LLM推理
+  |
+  ├── GPT架构
+  ├── Tokenizer
+  ├── Pretraining
+  ├── SFT
+  ├── RLHF/DPO
+  ├── KV Cache
+  └── 推理优化
+### Agent工程
+  |
+  ├── RAG
+  ├── Memory
+  ├── Tool Calling
+  ├── MCP
+  ├── Agent Runtime
+  └── Multi-Agent
+### 分布式
+网络
+OS
+Redis
+MySQL
+Kafka
+微服务
+一致性
 
-<p>
-  <img src="https://img.shields.io/badge/Duration-52_Weeks-111827?style=flat-square" />
-  <img src="https://img.shields.io/badge/Weekly_Time-15_Hours-111827?style=flat-square" />
-  <img src="https://img.shields.io/badge/Start-2026--08--10-111827?style=flat-square" />
-  <img src="https://img.shields.io/badge/Finish-2027--08--08-111827?style=flat-square" />
-</p>
-
-> Build a source-level understanding of **Transformer architecture and LLM inference**, then convert that knowledge into reproducible code, benchmarks, technical notes and a complete engineering project.
-
-### Phase 1 — Mathematical and Deep Learning Foundations
-
-**Weeks 1–8**
-
-Core topics:
-
-* Linear algebra
-* Probability and statistics
-* Calculus and gradients
-* Optimization algorithms
-* Neural network fundamentals
-* PyTorch tensors
-* Autograd
-* Model training loops
-
-Expected output:
-
-* Implement basic neural networks
-* Write custom training loops
-* Explain backpropagation
-* Publish foundation notes and experiments
-
----
-
-### Phase 2 — Transformer Internals
-
-**Weeks 9–18**
-
-Core topics:
-
-* Tokenization
-* Embeddings
-* Positional encoding
-* Self-attention
-* Multi-head attention
-* Causal masking
-* Residual connections
-* Layer normalization
-* Feed-forward networks
-* Decoder-only Transformer
-
-Expected output:
-
-* Implement a small Transformer
-* Trace every important tensor dimension
-* Explain the complete forward process
-* Train a small language model
-
----
-
-### Phase 3 — LLM Training and Alignment
-
-**Weeks 19–28**
-
-Core topics:
-
-* Training data pipelines
-* Pretraining objectives
-* Optimizers and learning-rate scheduling
-* Mixed-precision training
-* Gradient accumulation
-* Distributed training fundamentals
-* Supervised fine-tuning
-* LoRA and parameter-efficient fine-tuning
-* Knowledge distillation
-* Alignment fundamentals
-
-Expected output:
-
-* Complete a small-model fine-tuning experiment
-* Compare full fine-tuning and LoRA
-* Track training metrics
-* Document quality and resource trade-offs
-
----
-
-### Phase 4 — LLM Inference Mechanics
-
-**Weeks 29–38**
-
-Core topics:
-
-* Prefill and decode
-* Autoregressive generation
-* KV Cache
-* Sampling strategies
-* Greedy decoding
-* Top-K and Top-P sampling
-* Beam search
-* Dynamic batching
-* Continuous batching
-* Quantization
-* FlashAttention
-* Speculative decoding
-* Memory and compute bottlenecks
-
-Expected output:
-
-* Build an inference benchmark
-* Measure TTFT and TPOT
-* Compare latency and throughput
-* Analyze GPU or CPU memory usage
-* Explain optimization trade-offs
-
----
-
-### Phase 5 — Serving and Distributed Inference
-
-**Weeks 39–46**
-
-Core topics:
-
-* Model serving architecture
-* Request scheduling
-* Continuous batching
-* Prefix caching
-* Tensor parallelism
-* Pipeline parallelism
-* Data parallelism
-* vLLM architecture
-* Text Generation Inference
-* Distributed inference
-* Observability
-* Rate limiting
-* Failure handling
-
-Expected output:
-
-* Deploy an inference service
-* Support concurrent requests
-* Record performance metrics
-* Produce an architecture report
-* Compare multiple serving solutions
-
----
-
-### Phase 6 — Source Study and Capstone Project
-
-**Weeks 47–52**
-
-Core topics:
-
-* Read Transformer framework source code
-* Trace model loading
-* Trace tokenizer processing
-* Trace prefill and decode
-* Trace KV Cache management
-* Trace request scheduling
-* Analyze batching implementation
-* Integrate inference optimizations
-* Document architecture decisions
-
-Expected output:
-
-* Build a mini inference runtime or optimized serving system
-* Publish source-code analysis notes
-* Provide reproducible benchmark scripts
-* Complete a technical architecture document
-* Deliver a production-style capstone project
-
----
 
 <details>
 <summary><b>📚 Weekly Study Rhythm</b></summary>
