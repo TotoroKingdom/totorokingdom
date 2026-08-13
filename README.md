@@ -20,23 +20,7 @@
 
 I build **production-oriented AI applications and backend systems**, with practical experience in:
 
-* RAG systems
-* AI Agents
-* Tool calling and MCP
-* Agent memory and checkpointing
-* Workflow orchestration
-* Backend architecture
-* AI application deployment
 
-My current long-term direction is to move deeper into **Transformer fundamentals and LLM inference engineering**.
-
-I want to understand not only how to call a model, but also:
-
-* How the model works
-* How inference is executed
-* Where latency and memory are consumed
-* How inference frameworks optimize execution
-* How reliable production AI systems are designed
 
 ---
 
