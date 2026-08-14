@@ -151,7 +151,7 @@ Kafka
 ---
 
 <p align="center">
-  <b>Build deeply. Learn continuously. Ship systems that work.</b>
+  <b>Vibe Coding</b>
 </p>
 
 <p align="center">
