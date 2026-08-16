@@ -4,8 +4,8 @@
 
 <p align="center">
   <b>AI Engineer · Backend Developer · LLM Systems Explorer</b>
+  <b>Vibe Coding</b>
 </p>
----
 
 ## 🎮 Genshin Signal
 
@@ -359,14 +359,6 @@ Distributed LLM / Agent Systems（分布式大模型 / 智能体系统）
 AI-Agent Architect（AI Agent 架构师）
 ```
 
-
-
-
----
-
-<p align="center">
-  <b>Vibe Coding</b>
-</p>
 
 <p align="center">
   🌌 See you in the next deployment.
