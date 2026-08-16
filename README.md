@@ -35,6 +35,10 @@
     src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=TotoroKingdom&theme=github"
     width="420"
   />
+  <img
+  src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=TotoroKingdom&theme=github"
+  width="420"
+/>
 </p>
 ---
 
