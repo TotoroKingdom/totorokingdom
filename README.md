@@ -60,9 +60,9 @@
 * [ ] **Linear Algebra（线性代数）**
 
   * ✅ Vector & Matrix（向量与矩阵）
-  * [ ] Matrix Multiplication（矩阵乘法）
-  * [ ] Linear Transformation（线性变换）
-  * [ ] Eigenvalues / Eigenvectors（特征值 / 特征向量）
+  * ✅ Matrix Multiplication（矩阵乘法）
+  * ✅ Linear Transformation（线性变换）
+  * ✅ Eigenvalues / Eigenvectors（特征值 / 特征向量）
 
 * [ ] **Calculus（微积分）**
 
