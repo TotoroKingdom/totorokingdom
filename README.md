@@ -34,109 +34,314 @@ I build **production-oriented AI applications and backend systems**, with practi
 
 ---
 
-## 🎯 Engineering Focus
+## 🗺️ AI-Agent Architect Learning Roadmap
 
-| Area                        | What I Build and Study                                                                                   |
-| :-------------------------- | :------------------------------------------------------------------------------------------------------- |
-| 🤖 **AI Agent Systems**     | Agent loops, context assembly, tool routing, memory, checkpointing, HITL, MCP and workflow orchestration |
-| 🔍 **RAG Systems**          | Parsing, chunking, hybrid retrieval, RRF, reranking, citations, permission filtering and evaluation      |
-| 🧠 **LLM Fundamentals**     | Tokenization, embeddings, attention, Transformer blocks, training objectives and alignment               |
-| ⚡ **LLM Inference**         | Prefill, decode, KV Cache, batching, quantization, decoding strategies, memory usage and serving engines |
-| 🛰️ **Backend Engineering** | FastAPI, distributed systems, caching, databases, message queues, containers and observability           |
+> 🌱 Learning from fundamentals to production-grade LLM & Agent systems.
+> ✅ 完成　🟡 学习中　⬜ 待学习
 
----
+### 📐 Phase 01 · Mathematics Foundation
 
-## 🛠️ Technology Arsenal
+* [ ] **Linear Algebra（线性代数）**
 
-### 🤖 AI & LLM Engineering
+  * [ ] Vector & Matrix
+  * [ ] Matrix Multiplication
+  * [ ] Linear Transformation
+  * [ ] Eigenvalues / Eigenvectors
 
-<p>
-  <img src="https://img.shields.io/badge/LLM-050B1E?style=for-the-badge&logo=openai&logoColor=00F7FF" />
-  <img src="https://img.shields.io/badge/RAG-111827?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/AI_Agent-2A1458?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/LangChain-0B3B3B?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/LangGraph-003B2F?style=for-the-badge" />
-</p>
+* [ ] **Calculus（微积分）**
 
-### ⚙️ Backend, Data & Delivery
+  * [ ] Derivative
+  * [ ] Partial Derivative
+  * [ ] Gradient
+  * [ ] Chain Rule
 
-<p>
-  <img src="https://img.shields.io/badge/Python-102A43?style=for-the-badge&logo=python&logoColor=00F7FF" />
-  <img src="https://img.shields.io/badge/FastAPI-003B46?style=for-the-badge&logo=fastapi&logoColor=00F7FF" />
-  <img src="https://img.shields.io/badge/Java-3A1F04?style=for-the-badge&logo=openjdk&logoColor=FFB000" />
-  <img src="https://img.shields.io/badge/PostgreSQL-0A2342?style=for-the-badge&logo=postgresql&logoColor=60A5FA" />
-  <img src="https://img.shields.io/badge/Redis-3A0505?style=for-the-badge&logo=redis&logoColor=FF4D4D" />
-  <img src="https://img.shields.io/badge/Milvus-061B2D?style=for-the-badge&logoColor=00F7FF" />
-  <img src="https://img.shields.io/badge/Docker-071A2D?style=for-the-badge&logo=docker&logoColor=38BDF8" />
-  <img src="https://img.shields.io/badge/Linux-1F2937?style=for-the-badge&logo=linux&logoColor=FACC15" />
-  <img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white" />
-</p>
+* [ ] **Probability & Statistics（概率论与统计）**
+
+  * [ ] Probability Distribution
+  * [ ] Expectation / Variance
+  * [ ] Conditional Probability
+  * [ ] Maximum Likelihood
 
 ---
 
-## 🚀 Featured Projects
+### 🐍 Phase 02 · Python & PyTorch
 
-| Project                       | Core Stack                                      | Engineering Mission                                                                                               |
-| :---------------------------- | :---------------------------------------------- | :---------------------------------------------------------------------------------------------------------------- |
-| 🤖 **AI Knowledge Assistant** | LangGraph · RAG · FastAPI · Milvus              | Build a permission-aware knowledge assistant with hybrid retrieval, reranking, citations and multi-session memory |
-| 🧠 **Agent Runtime Lab**      | Agent Loop · Tool Calling · MCP · Checkpoint    | Explore context assembly, tool dispatch, memory compression, human approval and failure recovery                  |
-| 🌌 **AI World Portal**        | Next.js · FastAPI · Redis · PostgreSQL · Docker | Build and deploy a personal platform for demonstrating practical AI applications                                  |
-| ⚡ **Backend Infrastructure**  | Python · Java · Redis · Database · Messaging    | Design reliable services and distributed components that support production AI workloads                          |
+* [ ] Python for AI
+* [ ] Tensor
+* [ ] Tensor Shape & Broadcasting
+* [ ] Matrix Operations
+* [ ] Autograd
+* [ ] `nn.Module`
+* [ ] Loss Function
+* [ ] Optimizer
+* [ ] Training Loop
+* [ ] GPU / CUDA Basics
 
 ---
 
-## 🗺️ AI-Agent architect Learning Roadmap
-### 数学
-线性代数
-微积分
-概率论
-### 机器学习基础
-  |
-  ├── 神经网络基础
-  ├── 反向传播
-  ├── 优化算法
-  └── Loss函数
-### pytorch
-  |
-  ├── Tensor
-  ├── Autograd
-  ├── Module
-  ├── Training Loop
-  └── GPU/CUDA基础
-### transform
-  |
-  ├── Attention
-  ├── Multi-Head Attention
-  ├── Positional Encoding
-  ├── FFN
-  ├── LayerNorm
-  └── Transformer Block
-### LLM推理
-  |
-  ├── GPT架构
-  ├── Tokenizer
-  ├── Pretraining
-  ├── SFT
-  ├── RLHF/DPO
-  ├── KV Cache
-  └── 推理优化
-### Agent工程
-  |
-  ├── RAG
-  ├── Memory
-  ├── Tool Calling
-  ├── MCP
-  ├── Agent Runtime
-  └── Multi-Agent
-### 分布式
-网络
-OS
-Redis
-MySQL
-Kafka
-微服务
-一致性
+### 📊 Phase 03 · Machine Learning & Deep Learning
 
+* [ ] **Machine Learning Fundamentals**
+
+  * [ ] Supervised / Unsupervised Learning
+  * [ ] Training / Validation / Test
+  * [ ] Overfitting
+  * [ ] Regularization
+  * [ ] Gradient Descent
+
+* [ ] **Deep Learning Fundamentals**
+
+  * [ ] Neural Networks
+  * [ ] Forward Propagation
+  * [ ] Backpropagation
+  * [ ] Activation Functions
+  * [ ] Loss Functions
+  * [ ] Optimization Algorithms
+
+---
+
+### 🧠 Phase 04 · Transformer & LLM Foundation
+
+* [ ] Tokenization
+* [ ] Embedding
+* [ ] Self-Attention
+* [ ] Multi-Head Attention
+* [ ] Q / K / V
+* [ ] Causal Mask
+* [ ] FFN
+* [ ] Residual Connection
+* [ ] LayerNorm / RMSNorm
+* [ ] Positional Encoding
+* [ ] RoPE
+* [ ] Transformer Block
+* [ ] Decoder-only Transformer
+* [ ] Loss & Optimization
+
+#### 🧪 Coding Checkpoints
+
+* [ ] 手写 Self-Attention
+* [ ] 手写 Multi-Head Attention
+* [ ] 手写 RoPE
+* [ ] 手写 Transformer Block
+* [ ] 手写 Mini GPT
+
+---
+
+### ⚡ Phase 05 · LLM Inference
+
+* [ ] Autoregressive Generation
+* [ ] Prefill / Decode
+* [ ] KV Cache
+* [ ] Sampling
+
+  * [ ] Temperature
+  * [ ] Top-K
+  * [ ] Top-P
+* [ ] Beam Search
+* [ ] FlashAttention
+* [ ] PagedAttention
+* [ ] Continuous Batching
+* [ ] Prefix Cache
+* [ ] Quantization
+
+  * [ ] INT8 / INT4
+  * [ ] GPTQ
+  * [ ] AWQ
+* [ ] Speculative Decoding
+* [ ] Tensor Parallelism
+* [ ] vLLM
+* [ ] TTFT / TPOT / TPS
+* [ ] GPU Memory Analysis
+
+#### 🧪 Coding Checkpoints
+
+* [ ] 手写 Sampling
+* [ ] 手写 Beam Search
+* [ ] 手写 KV Cache
+* [ ] 分析 Transformer FLOPs
+* [ ] 部署一个 vLLM 推理服务
+
+---
+
+### 🧬 Phase 06 · LLM Fine-Tuning & Alignment
+
+* [ ] Pretraining Basics
+* [ ] Instruction Tuning
+* [ ] SFT
+* [ ] PEFT
+* [ ] LoRA
+* [ ] QLoRA
+* [ ] RLHF
+* [ ] PPO
+* [ ] DPO
+* [ ] GRPO
+
+#### 🧪 Coding Checkpoints
+
+* [ ] 手写 LoRA Layer
+* [ ] 使用 LoRA 微调一个小模型
+* [ ] 理解 PPO / DPO / GRPO 差异
+
+---
+
+### 🔍 Phase 07 · RAG Systems
+
+* [ ] Document Parsing
+* [ ] Chunking
+* [ ] Embedding
+* [ ] Vector Search
+* [ ] BM25
+* [ ] Hybrid Retrieval
+* [ ] RRF
+* [ ] Reranking
+* [ ] Query Rewrite
+* [ ] Context Assembly
+* [ ] Citation
+* [ ] Permission Filtering
+* [ ] RAG Evaluation
+
+#### 🧪 Engineering Checkpoints
+
+* [ ] 实现 Vector Search
+* [ ] 实现 BM25 + Vector Hybrid Retrieval
+* [ ] 实现 RRF
+* [ ] 接入 Reranker
+* [ ] 构建完整企业级 RAG Pipeline
+
+---
+
+### 🤖 Phase 08 · Agent Engineering
+
+* [ ] Agent Loop
+* [ ] ReAct
+* [ ] Tool / Function Calling
+* [ ] Tool Registry
+* [ ] MCP
+* [ ] Context Assembly
+* [ ] Context Compression
+* [ ] Memory
+
+  * [ ] Working Memory
+  * [ ] Short-Term Memory
+  * [ ] Long-Term Memory
+* [ ] Planning
+* [ ] Task System
+* [ ] Checkpoint / Resume
+* [ ] HITL
+* [ ] Multi-Agent
+* [ ] Agent Orchestration
+
+#### 🧪 Engineering Checkpoints
+
+* [ ] 手写 Mini Agent Loop
+* [ ] 实现 Tool System
+* [ ] 实现 Context Assembly
+* [ ] 实现 Memory System
+* [ ] 实现 Checkpoint / Resume
+* [ ] 构建 Mini-Harness
+
+---
+
+### 🛡️ Phase 09 · Agent Safety & Evaluation
+
+* [ ] Hallucination
+* [ ] Agent Evaluation
+* [ ] RAG Evaluation
+* [ ] LLM-as-a-Judge
+* [ ] Guardrails
+* [ ] Permission
+* [ ] Sandbox
+* [ ] Prompt Injection
+* [ ] Tool Safety
+* [ ] Human Approval
+* [ ] Observability
+* [ ] Tracing
+
+#### 🧪 Engineering Checkpoints
+
+* [ ] 构建 Agent Trace
+* [ ] 构建 Evaluation Dataset
+* [ ] 接入 LLM Judge
+* [ ] 实现 Permission Guard
+* [ ] 实现 Sandbox / HITL
+
+---
+
+### 🛰️ Phase 10 · LLM / Agent System Design
+
+* [ ] Concurrency
+* [ ] Queue / Scheduler
+* [ ] Worker Architecture
+* [ ] Redis
+* [ ] Database
+* [ ] Kafka / Message Queue
+* [ ] Session Routing
+* [ ] Rate Limiting
+* [ ] Backpressure
+* [ ] Timeout
+* [ ] Retry
+* [ ] Idempotency
+* [ ] Distributed Lock
+* [ ] Outbox
+* [ ] Saga
+* [ ] Observability
+* [ ] Load Balancing
+* [ ] High Availability
+* [ ] Auto Scaling
+* [ ] Distributed Systems
+
+#### 🧪 System Design Checkpoints
+
+* [ ] 设计高并发 Agent Runtime
+* [ ] 设计 Session → Worker 调度模型
+* [ ] 设计可靠 Tool Execution System
+* [ ] 设计分布式 Agent Task System
+* [ ] 设计 Production-Ready Agent Platform
+
+---
+
+### 🌌 Phase 11 · Frontier Models & Interview Topics
+
+* [ ] MoE
+* [ ] DeepSeek Architecture
+* [ ] Reasoning Models
+* [ ] Long Context
+* [ ] Multimodal LLM
+* [ ] Inference Scaling
+* [ ] Agentic Systems
+* [ ] LLM System Design
+* [ ] Handwritten Coding Problems
+* [ ] Real Interview Questions
+
+```
+
+### 🎯 Final Direction
+
+```text
+Mathematics
+      ↓
+PyTorch
+      ↓
+Machine Learning
+      ↓
+Deep Learning
+      ↓
+Transformer
+      ↓
+LLM Inference
+      ↓
+Fine-Tuning & Alignment
+      ↓
+RAG
+      ↓
+Agent Engineering
+      ↓
+Safety & Evaluation
+      ↓
+Distributed LLM / Agent Systems
+      ↓
+AI-Agent Architect
+```
 
 ## 🎮 Genshin Signal
 
