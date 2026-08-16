@@ -16,11 +16,35 @@
 
 ---
 
-## 🛰️ Mission Profile
+## 🎮 Genshin Signal
 
-I build **production-oriented AI applications and backend systems**, with practical experience in:
+<p align="center">
+  <img src="https://genshin-card-kallka.vercel.app/rand/310652688.png" width="420" />
+</p>
 
+<p align="center">
+  <i>愿派蒙与你同在 ✨</i>
+</p>
 
+---
+
+## 📊 GitHub Stats
+
+<p align="center">
+  <img
+    src="https://github-readme-stats.vercel.app/api?username=TotoroKingdom&show_icons=true&include_all_commits=true&count_private=true&hide_border=true"
+    height="170"
+  />
+</p>
+
+## 💻 Most Used Languages
+
+<p align="center">
+  <img
+    src="https://github-readme-stats.vercel.app/api/top-langs/?username=TotoroKingdom&layout=compact&langs_count=8&hide_border=true"
+    height="170"
+  />
+</p>
 
 ---
 
@@ -346,15 +370,7 @@ AI-Agent Architect（AI Agent 架构师）
 ```
 
 
-## 🎮 Genshin Signal
 
-<p align="center">
-  <img src="https://genshin-card-kallka.vercel.app/rand/310652688.png" width="420" />
-</p>
-
-<p align="center">
-  <i>愿派蒙与你同在 ✨</i>
-</p>
 
 ---
 
