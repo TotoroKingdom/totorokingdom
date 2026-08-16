@@ -303,7 +303,7 @@ I build **production-oriented AI applications and backend systems**, with practi
 
 ---
 
-### 🌌 Phase 11 · Frontier Models & Interview Topics（前沿模型与面试专项）
+### 🌌 Phase 11 · Frontier Models（前沿模型）
 
 * [ ] Mixture of Experts / MoE（混合专家模型）
 * [ ] DeepSeek Architecture（DeepSeek 模型架构）
