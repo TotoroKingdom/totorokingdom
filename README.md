@@ -28,7 +28,7 @@ I build **production-oriented AI applications and backend systems**, with practi
 
 | Module             | Entry                                                           |
 | :----------------- | :-------------------------------------------------------------- |
-| 🌌 AI World Portal | [Enter My AI World →](http://1.12.47.29:8082/)                  |
+| 🌌 AI World Portal | [Enter My AI World →](https://www.paiguangguang.xyz/)                  |
 | 📮 Email           | [totorokingdom@foxmail.com](mailto:totorokingdom@foxmail.com)   |
 | 🎯 Direction       | AI Applications → Transformer Internals → LLM Inference Systems |
 
