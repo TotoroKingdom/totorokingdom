@@ -5,15 +5,6 @@
 <p align="center">
   <b>AI Engineer · Backend Developer · LLM Systems Explorer</b>
 </p>
-
-<p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=22&duration=2800&pause=800&color=00F7FF&center=true&vCenter=true&width=800&lines=Engineering+Production-Ready+AI+Systems...;Studying+Transformer+Internals...;Optimizing+LLM+Inference...;Turning+Ideas+into+Deployable+Products..." />
-</p>
-
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=TotoroKingdom&style=flat&color=00F7FF&label=Visitors" />
-</p>
-
 ---
 
 ## 🎮 Genshin Signal
