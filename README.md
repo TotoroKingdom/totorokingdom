@@ -188,49 +188,49 @@ I build **production-oriented AI applications and backend systems**, with practi
 
 ### 🔍 Phase 07 · RAG Systems（检索增强生成系统）
 
-* [ ] Retrieval-Augmented Generation / RAG（检索增强生成）
-* [ ] Document Parsing（文档解析）
-* [ ] Chunking（文档分块）
-* [ ] Embedding（向量嵌入）
-* [ ] Vector Search（向量检索）
-* [ ] BM25（基于词频的经典文本检索算法）
-* [ ] Hybrid Retrieval（混合检索）
-* [ ] Reciprocal Rank Fusion / RRF（倒数排名融合）
-* [ ] Reranking（重排序）
-* [ ] Query Rewrite（查询改写）
-* [ ] Context Assembly（上下文组装）
-* [ ] Citation（引用与溯源）
-* [ ] Permission Filtering（权限过滤）
-* [ ] RAG Evaluation（RAG 评估）
+* ✅ Retrieval-Augmented Generation / RAG（检索增强生成）
+* ✅ Document Parsing（文档解析）
+* ✅ Chunking（文档分块）
+* ✅ Embedding（向量嵌入）
+* ✅ Vector Search（向量检索）
+* ✅ BM25（基于词频的经典文本检索算法）
+* ✅ Hybrid Retrieval（混合检索）
+* ✅ Reciprocal Rank Fusion / RRF（倒数排名融合）
+* ✅ Reranking（重排序）
+* ✅ Query Rewrite（查询改写）
+* ✅ Context Assembly（上下文组装）
+* ✅ Citation（引用与溯源）
+* ✅ Permission Filtering（权限过滤）
+* ✅ RAG Evaluation（RAG 评估）
 
 #### 🧪 Engineering Checkpoints（工程实践检查点）
 
-* [ ] 实现 Vector Search（向量检索）
-* [ ] 实现 BM25 + Vector Hybrid Retrieval（BM25 + 向量混合检索）
-* [ ] 实现 RRF（倒数排名融合）
-* [ ] 接入 Reranker（重排序模型）
-* [ ] 构建完整 Enterprise RAG Pipeline（企业级 RAG 流水线）
+* ✅ 实现 Vector Search（向量检索）
+* ✅ 实现 BM25 + Vector Hybrid Retrieval（BM25 + 向量混合检索）
+* ✅ 实现 RRF（倒数排名融合）
+* ✅ 接入 Reranker（重排序模型）
+* ✅ 构建完整 Enterprise RAG Pipeline（企业级 RAG 流水线）
 
 ---
 
 ### 🤖 Phase 08 · Agent Engineering（智能体工程）
 
-* [ ] Agent Loop（智能体循环）
-* [ ] Reasoning + Acting / ReAct（推理与行动框架）
-* [ ] Tool Calling / Function Calling（工具调用 / 函数调用）
-* [ ] Tool Registry（工具注册表）
-* [ ] Model Context Protocol / MCP（模型上下文协议）
-* [ ] Context Assembly（上下文组装）
-* [ ] Context Compression（上下文压缩）
-* [ ] Memory System（记忆系统）
+* ✅ Agent Loop（智能体循环）
+* ✅ Reasoning + Acting / ReAct（推理与行动框架）
+* ✅ Tool Calling / Function Calling（工具调用 / 函数调用）
+* ✅ Tool Registry（工具注册表）
+* ✅ Model Context Protocol / MCP（模型上下文协议）
+* ✅ Context Assembly（上下文组装）
+* ✅ Context Compression（上下文压缩）
+* ✅ Memory System（记忆系统）
 
-  * [ ] Working Memory（工作记忆）
-  * [ ] Short-Term Memory（短期记忆）
-  * [ ] Long-Term Memory（长期记忆）
-* [ ] Planning（任务规划）
+  * ✅ Working Memory（工作记忆）
+  * ✅ Short-Term Memory（短期记忆）
+  * ✅ Long-Term Memory（长期记忆）
+* ✅ Planning（任务规划）
 * [ ] Task System（任务系统）
-* [ ] Checkpoint / Resume（检查点 / 恢复执行）
-* [ ] Human-in-the-Loop / HITL（人在回路 / 人工介入）
+* ✅ Checkpoint / Resume（检查点 / 恢复执行）
+* ✅ Human-in-the-Loop / HITL（人在回路 / 人工介入）
 * [ ] Multi-Agent（多智能体）
 * [ ] Agent Orchestration（智能体编排）
 
@@ -249,7 +249,7 @@ I build **production-oriented AI applications and backend systems**, with practi
 
 * [ ] Hallucination（模型幻觉）
 * [ ] Agent Evaluation（智能体评估）
-* [ ] RAG Evaluation（RAG 评估）
+* ✅ RAG Evaluation（RAG 评估）
 * [ ] LLM-as-a-Judge（大模型裁判 / 大模型评审）
 * [ ] Guardrails（安全护栏）
 * [ ] Permission（权限控制）
@@ -272,24 +272,24 @@ I build **production-oriented AI applications and backend systems**, with practi
 
 ### 🛰️ Phase 10 · LLM / Agent System Design（大模型 / 智能体系统设计）
 
-* [ ] Concurrency（并发）
+* ✅ Concurrency（并发）
 * [ ] Queue / Scheduler（队列 / 调度器）
 * [ ] Worker Architecture（工作节点架构）
-* [ ] Redis（内存数据库 / 分布式缓存）
-* [ ] Database / DB（数据库）
-* [ ] Kafka / Message Queue / MQ（Kafka / 消息队列）
-* [ ] Session Routing（会话路由）
-* [ ] Rate Limiting（限流）
+* ✅ Redis（内存数据库 / 分布式缓存）
+* ✅ Database / DB（数据库）
+* ✅ Kafka / Message Queue / MQ（Kafka / 消息队列）
+* ✅ Session Routing（会话路由）
+* ✅ Rate Limiting（限流）
 * [ ] Backpressure（背压）
-* [ ] Timeout（超时控制）
-* [ ] Retry（重试）
-* [ ] Idempotency（幂等性）
-* [ ] Distributed Lock（分布式锁）
-* [ ] Transactional Outbox（事务发件箱 / 本地消息表模式）
-* [ ] Saga（分布式事务补偿模式）
-* [ ] Observability（可观测性）
-* [ ] Load Balancing（负载均衡）
-* [ ] High Availability / HA（高可用）
+* ✅ Timeout（超时控制）
+* ✅ Retry（重试）
+* ✅ Idempotency（幂等性）
+* ✅ Distributed Lock（分布式锁）
+* ✅ Transactional Outbox（事务发件箱 / 本地消息表模式）
+* ✅ Saga（分布式事务补偿模式）
+* ✅ Observability（可观测性）
+* ✅ Load Balancing（负载均衡）
+* ✅ High Availability / HA（高可用）
 * [ ] Auto Scaling（自动扩缩容）
 * [ ] Distributed Systems（分布式系统）
 
@@ -313,8 +313,7 @@ I build **production-oriented AI applications and backend systems**, with practi
 * [ ] Inference Scaling（推理扩展 / 推理 Scaling）
 * [ ] Agentic Systems（智能体系统）
 * [ ] LLM System Design（大模型系统设计）
-* [ ] Handwritten Coding Problems（手写代码题）
-* [ ] Real Interview Questions（真实面试题）
+
 
 ---
 
