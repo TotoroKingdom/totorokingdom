@@ -50,7 +50,7 @@
 | 📮 Email           | [totorokingdom@foxmail.com](mailto:totorokingdom@foxmail.com)   |
 | 🎯 Direction       | AI Applications → Transformer Internals → LLM Inference Systems |
 
-## 🗺️ AI-Agent Architect Learning Roadmap（AI Agent 架构师学习路线）
+## 🗺️ AI-Agent Architect Roadmap
 
 > 🌱 从基础原理逐步学习到 Production-Grade LLM & Agent Systems（生产级大模型与智能体系统）
 > ✅ 完成　🟡 学习中　⬜ 待学习
