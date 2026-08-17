@@ -4,6 +4,8 @@
 
 <p align="center">
   <b>AI Engineer · Backend Developer · LLM Systems Explorer</b>
+</p>
+<p align="center">
   <b>Vibe Coding</b>
 </p>
 
