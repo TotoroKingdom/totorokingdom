@@ -337,34 +337,31 @@
 
 ---
 
-### 🎯 Final Direction（最终学习方向）
+🚀 AI Agent Architect Roadmap
 
-```text
-Mathematics（数学）
-        ↓
-Python & PyTorch（Python 与 PyTorch）
-        ↓
-Machine Learning（机器学习）
-        ↓
-Deep Learning（深度学习）
-        ↓
-Transformer & LLM Foundation（Transformer 与大模型基础）
-        ↓
-LLM Inference（大模型推理）
-        ↓
-Fine-Tuning & Alignment（微调与对齐）
-        ↓
-RAG Systems（检索增强生成系统）
-        ↓
-Agent Engineering（智能体工程）
-        ↓
-Safety & Evaluation（安全与评估）
-        ↓
-Distributed LLM / Agent Systems（分布式大模型 / 智能体系统）
-        ↓
-AI-Agent Architect（AI Agent 架构师）
-```
-
+01｜Mathematics（数学）
+↓
+02｜Python & PyTorch（Python 与 PyTorch）
+↓
+03｜Machine Learning（机器学习）
+↓
+04｜Deep Learning（深度学习）
+↓
+05｜Transformer & LLM Foundation（Transformer 与大模型基础）
+↓
+06｜LLM Inference（大模型推理）
+↓
+07｜Fine-Tuning & Alignment（微调与对齐）
+↓
+08｜RAG Systems（检索增强生成系统）
+↓
+09｜Agent Engineering（智能体工程）
+↓
+10｜Safety & Evaluation（安全与评估）
+↓
+11｜Distributed LLM / Agent Systems（分布式大模型 / 智能体系统）
+↓
+🏆 AI-Agent Architect（AI Agent 架构师）
 
 <p align="center">
   🌌 See you in the next deployment.
