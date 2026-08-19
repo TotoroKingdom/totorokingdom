@@ -69,9 +69,9 @@
 * [ ] **Calculus（微积分）**
 
   * ✅ Derivative（导数）
-  * [ ] Partial Derivative（偏导数）
-  * [ ] Gradient（梯度）
-  * [ ] Chain Rule（链式法则）
+  * ✅ Partial Derivative（偏导数）
+  * ✅ Gradient（梯度）
+  * ✅ Chain Rule（链式法则）
 
 * [ ] **Probability & Statistics（概率论与统计）**
 
