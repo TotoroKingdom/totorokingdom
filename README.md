@@ -86,8 +86,8 @@
 
 * ✅ Python for AI（面向 AI 的 Python）
 * ✅ Tensor（张量）
-* [ ] Tensor Shape & Broadcasting（张量形状与广播机制）
-* [ ] Matrix Operations（矩阵运算）
+* ✅ Tensor Shape & Broadcasting（张量形状与广播机制）
+* ✅ Matrix Operations（矩阵运算）
 * [ ] Autograd（自动微分）
 * [ ] `nn.Module`（神经网络模块）
 * [ ] Loss Function（损失函数）
