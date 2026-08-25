@@ -3,7 +3,7 @@
 <h1 align="center">🌌 TotoroKingdom</h1>
 
 <p align="center">
-  <b>AI Engineer · Backend Developer · LLM Systems Explorer</b>
+  <b>AI Engineer · Full-Stack Developer · LLM Systems Explorer</b>
 </p>
 <p align="center">
   <b>Vibe Coding</b>
