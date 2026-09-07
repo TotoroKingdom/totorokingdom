@@ -248,7 +248,7 @@
   * ✅ Short-Term Memory（短期记忆）
   * ✅ Long-Term Memory（长期记忆）
 * ✅ Planning（任务规划）
-* [ ] Task System（任务系统）
+* ✅ Task System（任务系统）
 * ✅ Checkpoint / Resume（检查点 / 恢复执行）
 * ✅ Human-in-the-Loop / HITL（人在回路 / 人工介入）
 * [ ] Multi-Agent（多智能体）
@@ -256,51 +256,51 @@
 
 #### 🧪 Engineering Checkpoints（工程实践检查点）
 
-* [ ] 手写 Mini Agent Loop（迷你智能体循环）
-* [ ] 实现 Tool System（工具系统）
-* [ ] 实现 Context Assembly（上下文组装）
-* [ ] 实现 Memory System（记忆系统）
-* [ ] 实现 Checkpoint / Resume（检查点 / 恢复执行）
-* [ ] 构建 Mini-Harness（迷你智能体执行框架）
+* ✅ 手写 Mini Agent Loop（迷你智能体循环）
+* ✅ 实现 Tool System（工具系统）
+* ✅ 实现 Context Assembly（上下文组装）
+* ✅ 实现 Memory System（记忆系统）
+* ✅ 实现 Checkpoint / Resume（检查点 / 恢复执行）
+* ✅ 构建 Mini-Harness（迷你智能体执行框架）
 
 ---
 
 ### 🛡️ Phase 09 · Agent Safety & Evaluation（智能体安全与评估）
 
-* [ ] Hallucination（模型幻觉）
-* [ ] Agent Evaluation（智能体评估）
+* ✅ Hallucination（模型幻觉）
+* ✅ Agent Evaluation（智能体评估）
 * ✅ RAG Evaluation（RAG 评估）
-* [ ] LLM-as-a-Judge（大模型裁判 / 大模型评审）
-* [ ] Guardrails（安全护栏）
-* [ ] Permission（权限控制）
-* [ ] Sandbox（沙箱）
-* [ ] Prompt Injection（提示词注入攻击）
-* [ ] Tool Safety（工具调用安全）
-* [ ] Human Approval（人工审批）
-* [ ] Observability（可观测性）
-* [ ] Tracing（链路追踪）
+* ✅ LLM-as-a-Judge（大模型裁判 / 大模型评审）
+* ✅ Guardrails（安全护栏）
+* ✅ Permission（权限控制）
+* ✅ Sandbox（沙箱）
+* ✅ Prompt Injection（提示词注入攻击）
+* ✅ Tool Safety（工具调用安全）
+* ✅ Human Approval（人工审批）
+* ✅ Observability（可观测性）
+* ✅ Tracing（链路追踪）
 
 #### 🧪 Engineering Checkpoints（工程实践检查点）
 
-* [ ] 构建 Agent Trace（智能体执行链路追踪）
-* [ ] 构建 Evaluation Dataset（评估数据集）
-* [ ] 接入 LLM Judge（大模型评审器）
-* [ ] 实现 Permission Guard（权限防护）
-* [ ] 实现 Sandbox / HITL（沙箱 / 人在回路）
+* ✅ 构建 Agent Trace（智能体执行链路追踪）
+* ✅ 构建 Evaluation Dataset（评估数据集）
+* ✅ 接入 LLM Judge（大模型评审器）
+* ✅ 实现 Permission Guard（权限防护）
+* ✅ 实现 Sandbox / HITL（沙箱 / 人在回路）
 
 ---
 
 ### 🛰️ Phase 10 · LLM / Agent System Design（大模型 / 智能体系统设计）
 
 * ✅ Concurrency（并发）
-* [ ] Queue / Scheduler（队列 / 调度器）
-* [ ] Worker Architecture（工作节点架构）
+* ✅ Queue / Scheduler（队列 / 调度器）
+* ✅ Worker Architecture（工作节点架构）
 * ✅ Redis（内存数据库 / 分布式缓存）
 * ✅ Database / DB（数据库）
 * ✅ Kafka / Message Queue / MQ（Kafka / 消息队列）
 * ✅ Session Routing（会话路由）
 * ✅ Rate Limiting（限流）
-* [ ] Backpressure（背压）
+* ✅ Backpressure（背压）
 * ✅ Timeout（超时控制）
 * ✅ Retry（重试）
 * ✅ Idempotency（幂等性）
@@ -315,10 +315,10 @@
 
 #### 🧪 System Design Checkpoints（系统设计检查点）
 
-* [ ] 设计 High-Concurrency Agent Runtime（高并发智能体运行时）
-* [ ] 设计 Session → Worker Scheduling（会话到工作节点调度模型）
-* [ ] 设计 Reliable Tool Execution System（可靠工具执行系统）
-* [ ] 设计 Distributed Agent Task System（分布式智能体任务系统）
+* ✅ 设计 High-Concurrency Agent Runtime（高并发智能体运行时）
+* ✅ 设计 Session → Worker Scheduling（会话到工作节点调度模型）
+* ✅ 设计 Reliable Tool Execution System（可靠工具执行系统）
+* ✅ 设计 Distributed Agent Task System（分布式智能体任务系统）
 * [ ] 设计 Production-Ready Agent Platform（生产级智能体平台）
 
 ---
