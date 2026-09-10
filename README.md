@@ -251,8 +251,8 @@
 * ✅ Task System（任务系统）
 * ✅ Checkpoint / Resume（检查点 / 恢复执行）
 * ✅ Human-in-the-Loop / HITL（人在回路 / 人工介入）
-* [ ] Multi-Agent（多智能体）
-* [ ] Agent Orchestration（智能体编排）
+* ✅ Multi-Agent（多智能体）
+* ✅ Agent Orchestration（智能体编排）
 
 #### 🧪 Engineering Checkpoints（工程实践检查点）
 
@@ -310,8 +310,8 @@
 * ✅ Observability（可观测性）
 * ✅ Load Balancing（负载均衡）
 * ✅ High Availability / HA（高可用）
-* [ ] Auto Scaling（自动扩缩容）
-* [ ] Distributed Systems（分布式系统）
+* ✅ Auto Scaling（自动扩缩容）
+* ✅ Distributed Systems（分布式系统）
 
 #### 🧪 System Design Checkpoints（系统设计检查点）
 
@@ -319,7 +319,7 @@
 * ✅ 设计 Session → Worker Scheduling（会话到工作节点调度模型）
 * ✅ 设计 Reliable Tool Execution System（可靠工具执行系统）
 * ✅ 设计 Distributed Agent Task System（分布式智能体任务系统）
-* [ ] 设计 Production-Ready Agent Platform（生产级智能体平台）
+* ✅ 设计 Production-Ready Agent Platform（生产级智能体平台）
 
 ---
 
