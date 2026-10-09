@@ -48,37 +48,29 @@
 
 | Module             | Entry                                                           |
 | :----------------- | :-------------------------------------------------------------- |
-| 🌌 AI World Portal | [Enter My AI World →](https://www.paiguangguang.xyz/)                  |
+| 🌌 AI World Portal | [Enter My AI World →](https://www.paiguangguang.xyz/)           |
 | 📮 Email           | [totorokingdom@foxmail.com](mailto:totorokingdom@foxmail.com)   |
 | 🎯 Direction       | AI Applications → Transformer Internals → LLM Inference Systems |
 
 ## 🗺️ My AI Learning Roadmap
 
-> 目标：**AI Agent 工程师 → AI Agent 架构师**
->
-> 不追求把所有 AI 名词学一遍。工作里继续做 Agent，学习时间主要用来补模型底层。
->
 > ✅ 已掌握 / 已实践　⬜ 待学习
 
 ---
 
-## 1. 已经会的
+## 1. 已掌握
 
-这些内容已经在项目里做过，后面以实践和深化为主，不再当成“从零学习”的课程。
-
-* ✅ **RAG 工程**：文档解析、向量检索、BM25、混合检索、Rerank、权限过滤、评估
-* ✅ **Agent 基础**：Agent Loop、ReAct、Tool Calling、MCP、Memory、Planning
+* ✅ **RAG**：文档解析、向量检索、BM25、混合检索、Rerank、权限过滤、评估
+* ✅ **Agent**：Agent Loop、ReAct、Tool Calling、MCP、Memory、Planning
 * ✅ **Agent 工程**：任务系统、Checkpoint / Resume、HITL、Multi-Agent、Agent 编排
 * ✅ **安全与评估**：Trace、LLM Judge、Guardrails、Permission、Sandbox
 * ✅ **系统设计**：并发、队列、Worker、Redis、MQ、限流、重试、幂等、高可用、分布式系统
 
 ---
 
-## 2. 现在正在补的
+## 2. 正在补
 
 ### 数学基础
-
-数学只学到能够看懂深度学习和 Transformer，不走纯数学路线。
 
 * ✅ 向量与矩阵
 * ✅ 矩阵乘法
@@ -104,10 +96,10 @@
 * [ ] Training Loop
 * [ ] GPU / CUDA 基础
 
-目标：
+#### 实践
 
-* [ ] 独立写出一个完整训练循环
-* [ ] 能看懂 Tensor Shape 在网络里的变化
+* [ ] 独立写出完整 Training Loop
+* [ ] 追踪 Tensor Shape 变化
 
 ### 深度学习
 
@@ -122,11 +114,9 @@
 
 ---
 
-## 3. 接下来重点学
+## 3. 下一步
 
 ### Transformer
-
-这是当前模型原理学习的核心。
 
 * [ ] Tokenization
 * [ ] Embedding
@@ -141,16 +131,14 @@
 * [ ] Transformer Block
 * [ ] Decoder-only Transformer
 
-目标：
+#### 实践
 
 * [ ] 手写 Self-Attention
 * [ ] 手写 Transformer Block
 * [ ] 手写 Mini GPT
-* [ ] 能从 Token 一路追踪到最终 Logits
+* [ ] Token → Embedding → Attention → FFN → Logits
 
 ### LLM 推理
-
-重点理解“大模型到底是怎么跑起来的”。
 
 * [ ] 自回归生成
 * [ ] Prefill / Decode
@@ -164,43 +152,28 @@
 * [ ] TTFT / TPOT / TPS
 * [ ] GPU 显存分析
 
-目标：
+#### 实践
 
-* [ ] 部署一个 vLLM 服务
-* [ ] 看懂一次完整推理过程
-* [ ] 能分析延迟、吞吐和显存瓶颈
+* [ ] 部署 vLLM 服务
+* [ ] 跑通完整推理过程
+* [ ] 分析延迟 / 吞吐 / 显存
 
 ---
 
-## 4. Agent 继续往深处学
+## 4. Agent 深化
 
-这条线和模型学习并行，不停掉实际 Agent 工程。
-
-接下来不再重点学习“某个框架怎么调用”，而是学习**怎么做系统判断**。
-
-* [ ] Workflow 和 Agent 的边界
+* [ ] Workflow / Agent 边界
 * [ ] Router / Planner / Executor
 * [ ] Supervisor / Handoff
 * [ ] Context Engineering
-* [ ] 长任务的状态保存与恢复
+* [ ] 长任务状态保存与恢复
 * [ ] Agent Evaluation
 * [ ] Tool 权限与安全边界
 * [ ] Agent Runtime
 
-我希望最后能回答这些问题：
-
-* 什么场景应该用 Agent，什么场景普通 Workflow 就够了？
-* Context 应该放什么，不应该放什么？
-* Tool 应该怎么设计，权限边界在哪里？
-* Agent 中途失败后怎么恢复？
-* Multi-Agent 什么时候真的有价值？
-* 怎么证明一次改动让 Agent 变好了，而不是“感觉更好了”？
-
 ---
 
-## 5. 企业知识方向
-
-RAG 已经不是下一阶段的重点，下一步是理解企业知识本身怎么组织。
+## 5. 企业知识
 
 * [ ] Ontology
 * [ ] Knowledge Graph
@@ -210,13 +183,9 @@ RAG 已经不是下一阶段的重点，下一步是理解企业知识本身怎�
 * [ ] Knowledge Governance
 * [ ] 企业知识权限模型
 
-目标：把 **知识 → 权限 → 检索 → Agent** 串成完整系统。
-
 ---
 
-## 6. 以后再学
-
-这些内容重要，但暂时不挡当前主线。
+## 6. 后续
 
 * [ ] SFT
 * [ ] LoRA / QLoRA
@@ -226,7 +195,7 @@ RAG 已经不是下一阶段的重点，下一步是理解企业知识本身怎�
 * [ ] DeepSeek Architecture
 * [ ] Reasoning Models
 * [ ] Multimodal LLM
-* [ ] 更深入的分布式 LLM Inference
+* [ ] 分布式 LLM Inference
 
 ---
 
@@ -245,12 +214,6 @@ Agent Architecture
    ↓
 AI Agent Architect
 ```
-
-Agent / RAG / 系统设计不会等上面全部学完才继续，而是在真实项目里同步推进。
-
-<p align="center">
-  🌌 Build things. Understand how they work. Keep going deeper.
-</p>
 
 <p align="center">
   See you in the next deployment.
