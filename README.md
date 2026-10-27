@@ -56,10 +56,9 @@
 
 ## 🗺️ My AI Learning Roadmap
 
-> **学习目标：理解 LLM 为什么能生成语言、如何获得能力、为什么会有局限，以及这些原理如何影响 Agent 系统设计。**
+> **学习目标：理解 LLM**
 >
 > 职业方向：AI / Agent Engineer → Agent Runtime / Platform → Agentic Architect。  
-> 这是**知识学习地图**，不是项目开发计划。没有固定工期、代码交付门槛或阶段验收；可根据理解程度调整顺序和深度。
 
 ### 🧭 学习的主线
 
@@ -223,14 +222,11 @@
 
 ## 📝 怎样判断自己学懂了
 
-不使用工期、Gate 或代码测试来衡量学习进度。每学一个主题，可以循序渐进地问自己：
-
 1. **直觉层**：不用术语，能向别人讲明白它是什么、为什么存在吗？
 2. **机制层**：能画出过程，说明输入、输出、关键步骤和限制吗？
 3. **关联层**：能解释它与 LLM 推理、上下文或 Agent 设计有什么关系吗？
 4. **深入层（可选）**：是否有必要看公式、论文、源码或做小实验？
 
-如果某门课程听不懂，先判断是数学符号、概念、前置知识还是讲授节奏的问题，换一种讲法或补一个知识点，**不必因此推翻整条学习路线**。
 
 > **North Star:** Understand how LLMs work, why they behave as they do, and how that understanding leads to better Agent systems.
 
