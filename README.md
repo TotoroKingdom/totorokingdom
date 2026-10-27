@@ -44,126 +44,195 @@
 </p>
 ---
 
-
 ## 🧭 Navigation
 
 | Module | Entry |
 | :--- | :--- |
 | 🌌 AI World Portal | [Enter My AI World →](https://www.paiguangguang.xyz/) |
 | 📮 Email | [Contact](mailto:totorokingdom@foxmail.com) |
-| 🎯 Direction | **LLM Internals → Agent Runtime / Harness → Agentic Architect** |
+| 🎯 Direction | **LLM Fundamentals → LLM Inference → Agent Systems** |
 
 ---
 
 ## 🗺️ My AI Learning Roadmap
 
-> **目标：理解 LLM 的工作机制，并将原理转化为可验证的 Agent 工程能力。**  
-> 职业方向：AI Agent Engineer → Agent Runtime / Platform Engineer → Agentic Architect。  
-> 不以传统机器学习算法研究或从零预训练大模型为当前主线。
+> **学习目标：理解 LLM 为什么能生成语言、如何获得能力、为什么会有局限，以及这些原理如何影响 Agent 系统设计。**
+>
+> 职业方向：AI / Agent Engineer → Agent Runtime / Platform → Agentic Architect。  
+> 这是**知识学习地图**，不是项目开发计划。没有固定工期、代码交付门槛或阶段验收；可根据理解程度调整顺序和深度。
 
-### 01 · 学习策略：两条主线，并行推进
+### 🧭 学习的主线
 
-| 主线 | 关注的问题 | 最终要证明的能力 |
-| :--- | :--- | :--- |
-| **A. LLM 原理与推理（30%）** | Token 如何生成？Attention、KV Cache、Prefill / Decode 如何工作？ | 能解释机制、写简化实现、分析推理性能 |
-| **B. Agent 工程与架构（50%）** | Agent 如何可靠调用工具、治理上下文、恢复任务、管理权限与模型？ | 能设计可测试、可观测、可恢复的 Runtime / Harness |
-| **C. 评估与技术表达（20%）** | 怎样证明改动提升了质量、延迟、成本和可靠性？ | 可复现实验、架构文档、面试级案例分析 |
+```text
+认识 LLM：Token 是怎样一步步生成的？
+                ↓
+理解 Transformer：模型内部发生了什么？
+                ↓
+理解训练与对齐：模型的能力从哪里来？
+                ↓
+理解推理系统：为什么推理会慢、贵、占显存？
+                ↓
+理解 LLM 的能力边界：为什么 Agent 需要工具、记忆与外部控制？
+                ↓
+回到 Agent 工程：用模型原理指导架构取舍
+```
 
-学习方式：**工程问题 → 原理解释 → 最小实验 → 集成验证 → 指标复盘**。以上是时间分配建议，不是固定排课。
+**学习原则**
 
-**优先级**
+- **先直觉，后公式，再源码**：先听懂“是什么、为什么”，再逐渐研究数学与实现。
+- **按需补基础**：数学、PyTorch 和传统机器学习是辅助工具，不是必须全部学完才能进入 LLM。
+- **主线学原理，实践帮助理解**：小实验是可选的理解手段，不把“写完代码、通过测试、部署服务”当成学会知识的前提。
+- **Agent 工程与理论互相印证**：已有的工程经验用于提出问题；不要求每个理论知识点都立即改造成项目功能。
 
-- **P0（必修）**：Tokenizer、Embedding、Self-Attention、Transformer、Sampling、KV Cache、推理指标、Context Engineering、Agent Loop、Tool Calling、权限边界、Trace / Eval。
-- **P1（选修深化）**：SFT / LoRA / DPO / RL 基本机制、vLLM / Continuous Batching、MoE、分布式推理、Ontology / Knowledge Graph / GraphRAG。
-- **P2（按需查询）**：SVM、K-Means、PCA、完整传统机器学习推导、从零大规模预训练。**CS229 是参考资料，不是前置关卡。**
+### 📍 当前起点
 
-### 02 · 已有工程基础（有实践 ≠ 所有方向均已精通）
+| 已有基础 | 接下来希望弄懂 |
+| :--- | :--- |
+| Agent Loop、Tool Calling、MCP、Memory、RAG 等工程实践 | LLM 的生成、推理、规划与工具调用能力究竟来自哪里 |
+| 后端、并发、缓存、分布式系统经验 | Prefill、Decode、KV Cache、Batching、显存与吞吐背后的原理 |
+| 向量 / 矩阵、基础微积分概念；PyTorch Tensor 等入门知识 | Attention 的数学意义、损失函数、梯度与训练过程 |
 
-- ✅ **Agent / RAG**：Agent Loop、ReAct、Tool Calling、MCP、Memory、Planning；文档解析、Hybrid Search、Rerank、权限过滤与评估。
-- ✅ **Agent 工程**：Task、Checkpoint / Resume、HITL、Multi-Agent / 编排、Permission、Sandbox、Trace 与 Guardrails 等实践。
-- ✅ **分布式后端**：并发、消息队列、Worker、Redis、限流、重试、幂等与系统设计。
-- ✅ **数学 / PyTorch 起点**：向量、矩阵及基本微分概念；Tensor、Shape / Broadcasting、矩阵运算。
-- ⬜ **待补齐的关键缺口**：从源码解释 Transformer、从指标解释推理性能、端到端证明 Agent 优化效果。
-
-### 03 · 16 周核心路线（每阶段都有可验收产物）
-
-| 阶段 | 时间 | 学习主题 | 验收 Gate |
-| :--- | :--- | :--- | :--- |
-| **M1：理解 LLM 生成** | W1–W3 | Tokenizer / Embedding / QKV / Causal Mask / Transformer / Logits / Sampling | 最小 GPT 实现 + 关键张量形状与输出解释 |
-| **M2：理解推理系统** | W4–W6 | Prefill / Decode、KV Cache、TTFT / TPOT / TPS、Prefix Caching、Batching | 无缓存 vs 有缓存对照实验 + 延迟报告 |
-| **M3：深化 Agent Runtime** | W7–W10 | Context Engineering、Tool / MCP、State、Checkpoint、权限与恢复、模型路由 | 一个可恢复、可追踪、权限受控的 Agent 执行链 |
-| **M4：企业知识与 Agent** | W11–W13 | Hybrid RAG、ACL、撤权复验、Ontology / GraphRAG 适用边界 | 带权限与失败场景的知识问答 E2E 评估 |
-| **M5：工程证据与求职** | W14–W16 | Evaluation、可靠性、成本、架构取舍、系统设计表达 | 可公开演示 + 基准数据 + 架构决策文档 |
-
-#### M1 · LLM 工作机制
-
-- [ ] 理解 BPE / Tokenizer、Embedding、位置编码、Logits、Temperature / Top-p；能解释自回归生成。
-- [ ] 手写简化 Self-Attention，跟踪 Q / K / V 与 Attention Score 的形状。
-- [ ] 用 PyTorch 拼出最小 Decoder-only Transformer / Mini GPT，验证 Causal Mask。
-- [ ] **Gate：**能从输入 Token 逐步解释到下一个 Token 的采样；实验可运行、关键形状有断言。
-
-#### M2 · LLM Inference Systems
-
-- [ ] 区分 Prefill / Decode；理解 KV Cache 的计算节省与显存代价。
-- [ ] 理解 Prefix Caching、Continuous Batching、PagedAttention、量化的适用边界。
-- [ ] 做一次无 KV Cache / 有 KV Cache 的小模型对照；记录 Prompt 长度、TTFT、TPOT、吞吐与环境。
-- [ ] **Gate：**写一页推理性能分析，说明瓶颈、测量方法与至少一种优化取舍。
-- [ ] 可选：具备合适 GPU 时体验 vLLM；无 GPU 时用小模型或已有模型服务完成原理与指标实验，**不以部署 vLLM 为通关条件**。
-
-#### M3 · Agent Runtime / Harness
-
-- [ ] 梳理 Agent Loop / Tool Result / Model Decision / Task State 的边界：工具返回 ≠ 任务成功。
-- [ ] 实现或完善 Context Budget、裁剪 / 摘要、上下文溯源与长任务恢复。
-- [ ] 明确 Tool / MCP 调用前授权、上游授权与返回数据校验边界；覆盖撤权、超时、失败与重试场景。
-- [ ] 将 Model Routing / Fallback、Trace、Token / Cost、Latency、Tool Error 纳入统一观测。
-- [ ] **Gate：**以已有 Agent 工程做集成验证；保留正常、权限拒绝、工具异常、中断恢复等场景的运行证据。
-
-#### M4 · Knowledge / Ontology × Agent
-
-- [ ] 巩固 Hybrid Retrieval（BM25 + Vector + Rerank）与引用溯源、召回质量评估。
-- [ ] 理解 Entity / Relation、Taxonomy、Ontology 与 Knowledge Graph 的差异和取舍。
-- [ ] 验证租户 / 组织 / 文档 ACL、密级、撤权后的召回与输出复验。
-- [ ] **Gate：**用脱敏或合成数据完成多角色 E2E 测试；给出失败样例与改进前后结果。不得公开企业私有数据。
-
-#### M5 · Job-ready Engineering Evidence
-
-- [ ] **Case Study A — LLM 推理性能**：实验方法、基线、优化、结果和限制。
-- [ ] **Case Study B — Agent Runtime 可靠性**：状态机、工具失败、权限模型、恢复机制、Trace。
-- [ ] **Case Study C — 企业知识问答**：检索、ACL、Evaluation 与知识治理边界。
-- [ ] **Gate：**每个案例至少有架构图、可复现的最小 Demo / 测试、指标或断言证据、取舍说明；能在面试中独立讲清楚。
-
-### 04 · 数学 / ML：遇到问题再补，不走 CS229 全量先修
-
-| 当前问题 | 只补所需基础 | 立即应用 |
-| :--- | :--- | :--- |
-| 看不懂 Attention | 向量点积、矩阵乘法、Softmax | 手写 QKᵀ / √d 与 Attention |
-| 看不懂训练损失 | 对数、概率、Cross Entropy、梯度与链式法则 | 小样本 next-token loss / Autograd |
-| 看不懂模型输出 | 条件概率、Logits、采样分布 | Temperature / Top-p 实验 |
-| 看不懂 SFT / RL | 最大似然、优化目标、Policy / Reward 基础 | 比较 SFT、DPO、RL 的目标和反馈信号 |
-
-暂时不把线性回归、决策树、SVM、聚类、PCA 的完整课程学习或刷题作为通往 LLM 的必经路径。
-
-### 05 · 学习资源（按需选章节，不以刷完课程为目标）
-
-| 资源 | 何时使用 | 策略 |
-| :--- | :--- | :--- |
-| [Hugging Face LLM Course](https://huggingface.co/learn/llm-course/chapter1/1) | M1 入门 | 选 Tokenizer、Transformer、生成相关内容 |
-| [Karpathy — Neural Networks: Zero to Hero](https://karpathy.ai/zero-to-hero.html) | M1 代码实现 | 优先看 GPT 构建，缺反向传播再补前置章节 |
-| [vLLM Documentation](https://docs.vllm.cc/en/latest/) | M2 推理系统 | 阅读 KV Cache、Prefix Caching、Serving / 性能文档 |
-| [Stanford CS336 — Language Modeling from Scratch](https://cs336.stanford.edu/) | M1/M2 深化；后续持续参考 | 选择 Transformer、推理与评估内容；不强制完成高计算成本的训练作业 |
-| [PyTorch Tutorials](https://pytorch.org/tutorials/) | 代码卡点时 | Tensor、Autograd、Module、训练循环按需查阅 |
-
-### 06 · 执行与复盘规则
-
-- **每周节奏**：约 3 小时原理、4 小时实验 / 工程、1 小时复盘；时间不足时优先完成本阶段 Gate。
-- **每周只交付一个主成果**：一个最小实验、一份性能报告或一条真实 E2E 证据，避免多项目并行分散注意力。
-- **Done 的定义**：不是“看完视频”或“运行成功”，而是能 **解释原理、展示可复现证据、说清设计取舍**。
-- **学习与项目双向驱动**：现有 Agent / RAG / Harness 代码优先作为实验场；缺什么原理，就学习什么原理。
-- **四周复盘一次**：如果当前阶段阻碍工程产出，就缩小任务和补对应前置知识；不因一门大学课程过难而整体停摆。
+以上是根据已有学习记录整理的起点，不表示每个主题都已经达到同一熟练程度。
 
 ---
 
-> **North Star:** Understand LLMs deeply enough to engineer reliable, observable, secure, and efficient Agent systems.
+## 第一部分 · 从整体上理解 LLM
+
+**核心问题：大模型到底在做什么？**
+
+- [ ] LLM、Language Model、Foundation Model、Chat Model 的概念与关系
+- [ ] Token、Tokenizer、Vocabulary、Embedding
+- [ ] Context Window 与自回归生成（Autoregressive Generation）
+- [ ] Logits、Softmax、Temperature、Top-k / Top-p、停止条件
+- [ ] Base Model、Instruct Model、Reasoning Model 的区别
+- [ ] Prompt、System Instruction、Tool Call 在输入 / 输出层面是什么
+
+**理解重点：**能用自然语言讲清楚“输入一句话之后，模型怎样一步步预测并生成下一个 Token”；知道模型产生的是预测结果，而不是直接执行系统操作。
+
+**推荐入门：**[Karpathy — Deep Dive into LLMs](https://www.youtube.com/watch?v=7xTGNNLPyMI)；[Hugging Face LLM Course](https://huggingface.co/learn/llm-course/chapter1/1)。
+
+## 第二部分 · Transformer 的内部机制
+
+**核心问题：Transformer 为什么能够利用上下文？**
+
+- [ ] Embedding 与位置表示
+- [ ] Dot Product、Q / K / V 的直觉含义
+- [ ] Self-Attention 与 Scaled Dot-Product Attention
+- [ ] Causal Mask：为什么不能“偷看”未来 Token
+- [ ] Multi-Head Attention：为什么有多个注意力头
+- [ ] Feed-Forward Network、Residual Connection、LayerNorm / RMSNorm
+- [ ] RoPE 等位置编码机制
+- [ ] Decoder-only Transformer 的完整数据流
+
+**理解重点：**不仅记住“Attention = QKᵀ / √d”，还要知道每一步解决什么问题，矩阵的维度如何变化，以及 Attention 如何把上下文信息混合进表示。
+
+**可选辅助：**看动画、画一张 Transformer 结构图，或用 NumPy / PyTorch 算一次极小的 Attention。**不要求先手写完整 GPT。**
+
+**推荐资源：**[3Blue1Brown](https://www.3blue1brown.com/)；[Karpathy — Zero to Hero](https://karpathy.ai/zero-to-hero.html)。
+
+## 第三部分 · 模型是怎样训练和对齐的
+
+**核心问题：为什么预训练模型能学会语言？为什么指令模型会遵循要求？**
+
+- [ ] 自监督学习与 Next Token Prediction
+- [ ] 训练数据、训练 / 验证、Loss、Cross Entropy 与 Perplexity
+- [ ] Forward、Backward、Gradient、Optimizer、AdamW 的基本作用
+- [ ] Pretraining 与 Post-training 的区别
+- [ ] SFT：示例如何影响模型行为
+- [ ] 偏好优化与强化学习后训练：Reward Model、DPO、PPO / GRPO 的基本思想
+- [ ] LoRA / QLoRA：为什么可以低成本微调
+- [ ] Tool Calling 与结构化输出：训练行为、模型输出格式和外部执行之间的关系
+- [ ] Hallucination、泛化、训练分布和模型能力边界
+
+**理解重点：**分清“模型参数怎样被训练更新”和“Agent 运行时怎样通过提示词、工具及反馈组织任务”；**Agent Loop 不等于强化学习**。
+
+这里重点掌握训练过程和方法之间的区别，**暂不以完整训练大模型、推导 PPO/GRPO 论文细节为目标**。
+
+## 第四部分 · LLM 推理原理与系统
+
+**核心问题：为什么模型推理既慢又贵？优化究竟发生在哪里？**
+
+- [ ] Training vs. Inference；自回归推理中的计算过程
+- [ ] Prefill 与 Decode：两种阶段的工作负载有什么不同
+- [ ] KV Cache：复用了什么、为什么能提速、代价是什么
+- [ ] Prompt Length / Output Length 与延迟的关系
+- [ ] TTFT、TPOT、TPS、Throughput 与 Latency 的区别
+- [ ] Batching、Continuous Batching、Prefix Caching
+- [ ] FlashAttention、PagedAttention 的问题背景和核心思想
+- [ ] Quantization、模型参数量、显存占用的基本关系
+- [ ] vLLM 与推理服务的基本架构；本地部署和 API 服务的差异
+
+**理解重点：**能解释“长上下文为什么增加计算与缓存压力”“KV Cache 与 Prefix Caching 有何不同”“吞吐和单请求延迟为何会冲突”。
+
+**推荐资源：**[vLLM Docs](https://docs.vllm.ai/en/latest/)；[Stanford CS336](https://cs336.stanford.edu/)（选读相关章节，作为进阶参考）。
+
+## 第五部分 · 用 LLM 原理理解 Agent
+
+**核心问题：模型本身不执行外部操作，Agent 为什么能完成任务？**
+
+- [ ] LLM 与 Agent 的边界：模型推断、工具执行、外部控制循环
+- [ ] Tool Calling：模型怎样表达调用意图，谁真正执行工具
+- [ ] Reasoning / Planning 的能力与局限；为什么“想得更久”不必然做得更对
+- [ ] Context Engineering：上下文位置、长度、噪声、裁剪和压缩的影响
+- [ ] Memory、RAG、长期任务状态：参数知识与外部信息的区别
+- [ ] 多轮调用中的延迟、成本、缓存与错误累积
+- [ ] Model Routing：能力、成本、上下文长度、延迟如何影响选型
+- [ ] Tool 失败、权限边界、可信 / 不可信内容与 Prompt Injection
+- [ ] Agent Evaluation：最终结果、执行轨迹、工具调用、模型判断分别评估什么
+
+**理解重点：**能从模型特性解释 Agent 的系统设计，而不是只会描述框架 API。已有工程实践继续作为理解这些问题的参照，不另设代码交付目标。
+
+## 第六部分 · 按兴趣与职业方向深化（非必修顺序）
+
+| 专题 | 值得研究的问题 | 学习建议 |
+| :--- | :--- | :--- |
+| Reasoning Models | 推理时计算、长思考、测试时扩展如何影响能力和成本？ | 优先 |
+| MoE / 大模型架构 | 稀疏激活为什么能改变参数规模与计算成本的关系？ | 选学 |
+| 分布式推理 | Tensor / Pipeline Parallelism、模型切分、通信开销怎样相互影响？ | 选学 |
+| Multimodal LLM | 视觉、语音等非文本信息如何进入模型？ | 选学 |
+| Ontology / Knowledge Graph / GraphRAG | 外部结构化知识何时优于纯向量检索？ | 与企业知识经验结合 |
+| 模型训练研究 | 预训练数据工程、Scaling Laws、优化稳定性 | 有进一步研究目标时深入 |
+
+---
+
+## 🧮 数学与机器学习：作为随学随查的辅助线
+
+**不要求先完成 Stanford CS229。**先掌握能够支撑 LLM 原理理解的最小知识集合：
+
+| 学 LLM 时遇到的问题 | 按需补充 |
+| :--- | :--- |
+| 看不懂 QKᵀ、Embedding 或张量形状 | 向量、矩阵乘法、点积、维度、线性变换 |
+| 看不懂 Softmax、采样或 Cross Entropy | 概率分布、条件概率、对数、期望 |
+| 看不懂 Backpropagation 和训练 | 导数、偏导、链式法则、梯度下降 |
+| 看不懂 SFT / DPO / RL | 最大似然、优化目标、奖励与策略的基本概念 |
+
+已有基础：✅ 向量与矩阵、矩阵乘法、线性变换、导数、偏导、梯度、链式法则等已有学习经历；概率与优化相关内容继续补充。
+
+传统机器学习的回归、分类、SVM、K-Means、PCA 等可以了解基本概念，**不作为 LLM 学习的必经前置课程**。
+
+## 📚 课程怎么选
+
+| 课程 / 材料 | 适合解决的问题 | 使用方式 |
+| :--- | :--- | :--- |
+| [Karpathy — Deep Dive into LLMs](https://www.youtube.com/watch?v=7xTGNNLPyMI) | 先建立完整的 LLM 认知 | **从这里开始** |
+| [Hugging Face LLM Course](https://huggingface.co/learn/llm-course/chapter1/1) | Tokenizer、Transformer、生成机制的结构化学习 | 边看边查概念 |
+| [3Blue1Brown](https://www.3blue1brown.com/) | Attention、神经网络和数学直觉 | 看不懂公式时使用 |
+| [Karpathy — Zero to Hero](https://karpathy.ai/zero-to-hero.html) | 从直觉走向代码层机制 | 选看，不必完成所有项目 |
+| [Stanford CS336](https://cs336.stanford.edu/) | 从语言建模延伸到训练与系统 | 进阶选读，难度较高 |
+| [Stanford CS229](https://cs229.stanford.edu/) | 系统学习机器学习与数学方法 | 工具书性质，**暂不作为主课** |
+
+## 📝 怎样判断自己学懂了
+
+不使用工期、Gate 或代码测试来衡量学习进度。每学一个主题，可以循序渐进地问自己：
+
+1. **直觉层**：不用术语，能向别人讲明白它是什么、为什么存在吗？
+2. **机制层**：能画出过程，说明输入、输出、关键步骤和限制吗？
+3. **关联层**：能解释它与 LLM 推理、上下文或 Agent 设计有什么关系吗？
+4. **深入层（可选）**：是否有必要看公式、论文、源码或做小实验？
+
+如果某门课程听不懂，先判断是数学符号、概念、前置知识还是讲授节奏的问题，换一种讲法或补一个知识点，**不必因此推翻整条学习路线**。
+
+> **North Star:** Understand how LLMs work, why they behave as they do, and how that understanding leads to better Agent systems.
 
 <p align="center">
   See you in the next deployment.
