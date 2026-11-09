@@ -9,15 +9,18 @@
   <b>Vibe Coding</b>
 </p>
 
+
 ## 🎮 Genshin Signal
 
 <p align="center">
   <img src="https://genshin-card-kallka.vercel.app/rand/310652688.png" width="420" />
 </p>
 
+
 <p align="center">
   <i>愿派蒙与你同在 ✨</i>
 </p>
+
 
 ---
 
@@ -29,6 +32,7 @@
     width="420"
   />
 </p>
+
 
 ## 💻 Most Used Languages
 
@@ -42,14 +46,15 @@
   width="420"
 />
 </p>
+
 ---
 
 ## 🧭 Navigation
 
-| Module             | Entry                                                           |
-| :----------------- | :-------------------------------------------------------------- |
-| 🌌 AI World Portal | [Enter My AI World →](https://www.paiguangguang.xyz/)           |
-| 📮 Email           | [totorokingdom@foxmail.com](mailto:totorokingdom@foxmail.com)   |
+| Module            | Entry                                                        |
+| :---------------- | :----------------------------------------------------------- |
+| 🌌 AI World Portal | [Enter My AI World →](https://www.paiguangguang.xyz/)        |
+| 📮 Email           | [totorokingdom@foxmail.com](mailto:totorokingdom@foxmail.com) |
 | 🎯 Direction       | AI Applications → Transformer Internals → LLM Inference Systems |
 
 ## 🗺️ My AI Learning Roadmap
@@ -60,12 +65,12 @@
 
 机器学习 / 深度学习是**技术体系**，监督学习 / 无监督学习 / 自监督学习 / 强化学习是**学习范式**，两者是不同的分类维度；深度学习可以采用多种学习范式。
 
-| 层次 | 学习重点 | 在路线图中的位置 |
-| :--- | :--- | :--- |
-| **第一层：机器学习基础** | 数据、特征、训练与评估；监督、无监督、自监督及强化学习的基本区别 | 「正在补 → 数学基础 / 机器学习基础」 |
-| **第二层：深度学习** | 神经网络、反向传播、优化、PyTorch、Transformer | 「正在补 → PyTorch / 深度学习」「下一步 → Transformer」 |
-| **第三层：LLM 训练** | 自监督预训练、SFT、LoRA、偏好优化、强化学习后训练 | 「后续 → LLM 训练与对齐」 |
-| **第四层：AI Agent 工程** | Agent Loop、Tool Calling、规划、记忆、运行时、评估与安全 | 「已掌握 → Agent / Agent 工程」「Agent 深化」 |
+| 层次                      | 学习重点                                                     | 在路线图中的位置                                        |
+| :------------------------ | :----------------------------------------------------------- | :------------------------------------------------------ |
+| **第一层：机器学习基础**  | 数据、特征、训练与评估；监督、无监督、自监督及强化学习的基本区别 | 「正在补 → 数学基础 / 机器学习基础」                    |
+| **第二层：深度学习**      | 神经网络、反向传播、优化、PyTorch、Transformer               | 「正在补 → PyTorch / 深度学习」「下一步 → Transformer」 |
+| **第三层：LLM 训练**      | 自监督预训练、SFT、LoRA、偏好优化、强化学习后训练            | 「后续 → LLM 训练与对齐」                               |
+| **第四层：AI Agent 工程** | Agent Loop、Tool Calling、规划、记忆、运行时、评估与安全     | 「已掌握 → Agent / Agent 工程」「Agent 深化」           |
 
 > 学习顺序不是从零开始：已有 Agent 工程实践继续保留；补齐底层原理，再反哺 LLM 与 Agent 架构能力。**Agent Loop 不等于强化学习**，只有基于反馈训练或更新策略，才涉及相应的学习过程。
 
@@ -148,16 +153,26 @@
 ### Transformer（第二层 → LLM）
 
 * [ ] Transformer Block * N
-* [ ] Norm
-* [ ] Self-Attention
-* [ ] Residual
-* [ ] Norm
-* [ ] FFN
-* [ ] Residual
+  Norm
+  Self-Attention
+
+  ​	QKV Projection
+  ​	Multi-Head / GQA 分头
+  ​    RoPE位置编码
+
+  ​	Attention Score
+
+  ​	Scale Causal Mask
+  ​	Softmax
+  ​	Weighted Sum of V
+  ​	Head Merge + Output Projection
+
+  Residual
+  Norm
+  FFN
+  Residual
+
 * [ ] Hidden States
-* [ ] Final Norm
-* [ ] LM Head
-* [ ] Logits
 
 #### 实践
 
@@ -168,19 +183,19 @@
 
 ### LLM 推理
 
-* [ ] Tokenizer   Text --> Token ID
-* [ ] Embedding   Token ID --> Vector
+* [ ] Prompt
+* [ ] Tokenizer
+* [ ] Embedding
 * [ ] Prefill
-* [ ] Transfoer
-* [ ] Q K V
-* [ ] Attention
-* [ ] FFN
+  Tensor
+  Transformer * N --->各层写入KV Cache
+  Final Norm + LM Head
+  Logits
+  Sampling
+  Toekn Output
+* [ ] KV Cache
 * [ ] Decode
-* [ ] Logits
-* [ ] Sampling
-* [ ] vLLM
-* [ ] TTFT / TPOT / TPS
-* [ ] GPU 显存分析
+* [ ] Stream
 
 #### 实践
 
