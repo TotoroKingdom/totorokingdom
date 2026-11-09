@@ -147,18 +147,17 @@
 
 ### Transformer（第二层 → LLM）
 
-* [ ] Tokenization
-* [ ] Embedding
-* [ ] Q / K / V
+* [ ] Transformer Block * N
+* [ ] Norm
 * [ ] Self-Attention
-* [ ] Multi-Head Attention
-* [ ] Causal Mask
+* [ ] Residual
+* [ ] Norm
 * [ ] FFN
-* [ ] Residual Connection
-* [ ] LayerNorm / RMSNorm
-* [ ] RoPE
-* [ ] Transformer Block
-* [ ] Decoder-only Transformer
+* [ ] Residual
+* [ ] Hidden States
+* [ ] Final Norm
+* [ ] LM Head
+* [ ] Logits
 
 #### 实践
 
