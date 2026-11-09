@@ -152,56 +152,88 @@
 
 ### Transformer（第二层 → LLM）
 
-* [ ] Transformer Block * N
-  Norm
-  Self-Attention
+> 脑图主线：以现代 Decoder-only（仅解码器）自回归 LLM 为例。节点按“整体 → Block → 子层 → 操作”展开；不同模型的 Norm、位置编码和 FFN 实现可能不同。
 
-  ​	QKV Projection
-  ​	Multi-Head / GQA 分头
-  ​    RoPE位置编码
-
-  ​	Attention Score
-
-  ​	Scale Causal Mask
-  ​	Softmax
-  ​	Weighted Sum of V
-  ​	Head Merge + Output Projection
-
-  Residual
-  Norm
-  FFN
-  Residual
-
-* [ ] Hidden States
-
-#### 实践
-
-* [ ] 手写 Self-Attention
-* [ ] 手写 Transformer Block
-* [ ] 手写 Mini GPT
-* [ ] Token → Embedding → Attention → FFN → Logits
+- [ ] **01 整体架构**
+  - [ ] Token IDs → Token Embedding（词嵌入）→ Hidden States（隐藏状态）
+  - [ ] Transformer Block × N（多层堆叠，逐层更新 Hidden States）
+  - [ ] Final Norm（最终归一化）→ LM Head（词表投影）→ Logits（各候选 Token 的未归一化分数）
+  - [ ] 位置信息：例如 RoPE（旋转位置编码），通常施加在 Attention 的 Q、K 上，并非所有 Transformer 都使用 RoPE
+- [ ] **02 Transformer Block × N（以常见 Pre-Norm 结构为例）**
+  - [ ] **A. Self-Attention（自注意力）子层**
+    - [ ] Norm：先对输入 Hidden States 归一化
+    - [ ] Q / K / V Projection：将当前层输入投影为 Query、Key、Value
+    - [ ] Attention Heads：MHA（多头注意力）/ GQA（分组查询注意力，多个 Q 头共享一组 K/V 头）/ MQA（多查询注意力）
+    - [ ] Position：如使用 RoPE，对 Q、K 施加位置旋转
+    - [ ] Scaled Dot-Product Attention（缩放点积注意力）
+      - [ ] Attention Scores：Q × Kᵀ / √d_head
+      - [ ] Causal Mask：阻止当前位置关注未来 Token（Decoder-only 因果注意力）
+      - [ ] Softmax：将分数转换为注意力权重
+      - [ ] Weighted Sum of V：用注意力权重对 V 加权求和
+    - [ ] Head Merge + Output Projection：合并各头输出并线性投影
+    - [ ] Residual Connection：与本子层输入做残差相加
+  - [ ] **B. FFN / MLP（前馈网络）子层**
+    - [ ] Norm：对 Attention 子层输出归一化
+    - [ ] FFN：线性变换 → 非线性激活 / 门控（如 SwiGLU）→ 线性变换
+    - [ ] Residual Connection：与本子层输入做残差相加
+  - [ ] **C. Block Output**
+    - [ ] 产生更新后的 Hidden States，传入下一层 Block
+    - [ ] 说明：以上是 Pre-Norm 的概念示意；Post-Norm、并行残差、MoE 等模型实现会有差异
+- [ ] **03 关键概念及边界**
+  - [ ] Forward Pass（前向计算）：输入经过 Embedding、各层 Transformer、Final Norm、LM Head 后得到 Logits
+  - [ ] Hidden States：每层传递的中间表示，不是独立于 Transformer 的额外计算步骤
+  - [ ] KV Cache：推理时缓存每层 Attention 历史 Token 的 K、V；缓存的读写发生在 Attention 内部
+  - [ ] Transformer 其他结构：Encoder-only 可用双向注意力；Encoder-Decoder 还包含 Cross-Attention（交叉注意力）
+- [ ] **04 实践**
+  - [ ] 手写 Scaled Dot-Product / Causal Self-Attention，验证 Mask 和张量形状
+  - [ ] 手写 Multi-Head Attention 和 Transformer Block（包含 Norm、Residual、FFN）
+  - [ ] 手写 Mini GPT：Token IDs → Embedding → Blocks → Final Norm → LM Head → Logits
 
 ### LLM 推理
 
-* [ ] Prompt
-* [ ] Tokenizer
-* [ ] Embedding
-* [ ] Prefill
-  Tensor
-  Transformer * N --->各层写入KV Cache
-  Final Norm + LM Head
-  Logits
-  Sampling
-  Toekn Output
-* [ ] KV Cache
-* [ ] Decode
-* [ ] Stream
+> 脑图主线：以 Decoder-only 自回归文本生成、启用 KV Cache 为例。**Prefill 和 Decode 都会执行模型 Forward Pass；Sampling 发生在 Forward Pass 产生 Logits 之后。**
 
-#### 实践
-
-* [ ] 部署 vLLM 服务
-* [ ] 跑通完整推理过程
-* [ ] 分析延迟 / 吞吐 / 显存
+- [ ] **01 请求准备与输入**
+  - [ ] Prompt / Messages：系统指令、用户消息和历史上下文
+  - [ ] Chat Template（聊天模板）：按模型格式组织消息和特殊 Token
+  - [ ] Tokenizer：文本 → Token IDs
+  - [ ] Token Embedding：Token IDs → 向量 / Tensor（张量是数据结构，不是单独的推理阶段）
+- [ ] **02 Prefill（预填充：处理输入上下文）**
+  - [ ] 对输入 Prompt Token 执行一次批量 Forward Pass（因果 Mask 保证不看未来）
+  - [ ] Transformer Block × N：逐层计算 Self-Attention、FFN 等
+    - [ ] 每层 Attention 计算该层的 Q / K / V
+    - [ ] 将当前 Prompt 的 K、V 写入对应层 KV Cache
+  - [ ] Final Norm → LM Head → 最后位置的 Logits
+  - [ ] 对最后位置的 Logits 进行 Sampling / Greedy，得到**第一个输出 Token**
+- [ ] **03 Decode（增量解码：逐 Token 生成）**
+  - [ ] 将上一步选出的 Token ID 输入 Embedding
+  - [ ] 对**新 Token** 执行一次增量 Forward Pass，仍然经过全部 Transformer 层
+    - [ ] 当前层仅计算新 Token 的 Q、K、V（不重算历史 Token 的 K、V）
+    - [ ] 当前 Q 与“历史缓存 K + 当前 K”计算 Attention，并对对应 V 加权求和
+    - [ ] 将新 K、V 加入当前层 KV Cache，然后继续 FFN / 后续 Transformer 层
+  - [ ] Final Norm → LM Head → 新位置的 Logits → Sampling / Greedy → 下一个 Token
+  - [ ] 重复 Decode，直到 EOS、Stop Sequence、最大生成长度等停止条件触发
+- [ ] **04 KV Cache（贯穿 Prefill / Decode 的注意力缓存）**
+  - [ ] 缓存内容：**每个 Transformer 层各自的历史 K、V**，而不是整套 Transformer 输出或全部 Q
+  - [ ] Prefill：建立初始缓存；Decode：复用历史 K、V，并更新新 Token 的 K、V
+  - [ ] 作用：避免重复计算历史 Token 的 K、V 及其前序层表示；新 Token 仍需经过各层计算
+  - [ ] 成本：缓存随上下文长度、并发请求数、层数、KV 头数及数值精度等增长，占用显存
+  - [ ] 优化方向：GQA / MQA、Paged KV Cache、Prefix Caching（按模型和推理框架支持情况）
+- [ ] **05 Logits、Sampling 与输出**
+  - [ ] Logits：LM Head 输出的词表分数，尚非概率
+  - [ ] Sampling：Temperature（调节概率分布）→ Softmax → Top-k / Top-p 等过滤 → 选择 Token；也可采用 Greedy
+  - [ ] Temperature / Top-p 主要影响 Token 选择策略，不直接改变已完成的 Transformer 前向计算；选出不同 Token 会影响后续 Decode 的输入
+  - [ ] Detokenization：将生成的 Token ID 逐步还原为文本
+  - [ ] Stream：服务端可增量发送生成文本；流式传输不等于提前完成整次推理
+- [ ] **06 推理性能与工程**
+  - [ ] Prefill：重点关注输入长度、计算量与 TTFT（首 Token 延迟）
+  - [ ] Decode：重点关注单 Token 延迟（TPOT / ITL）、KV Cache 读写与显存带宽
+  - [ ] 服务指标：吞吐（Tokens/s）、并发、显存占用、排队延迟与端到端时延
+  - [ ] 优化方向：Continuous Batching（连续批处理）、量化、KV Cache 管理与缓存复用
+- [ ] **07 实践**
+  - [ ] 部署 vLLM 服务，观察 Prefill、Decode 与 KV Cache
+  - [ ] 跑通 Prompt → Token IDs → Prefill → 首 Token → Decode 循环 → Stream
+  - [ ] 比较不同输入长度、输出长度、并发数下的 TTFT、TPOT、吞吐和显存
 
 ---
 
