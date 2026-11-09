@@ -217,11 +217,11 @@
   - [ ] 缓存内容：**每个 Transformer 层各自的历史 K、V**，而不是整套 Transformer 输出或全部 Q
   - [ ] Prefill：建立初始缓存；Decode：复用历史 K、V，并更新新 Token 的 K、V
   - [ ] 作用：避免重复计算历史 Token 的 K、V 及其前序层表示；新 Token 仍需经过各层计算
-  - [ ] 成本：缓存随上下文长度、并发请求数、层数、KV 头数及数值精度等增长，占用显存
+  - [ ] 成本：常规 KV Cache 的显存占用通常随上下文长度、并发请求数、层数、KV 头数及数值精度等增长；滑动窗口等策略可限制缓存长度
   - [ ] 优化方向：GQA / MQA、Paged KV Cache、Prefix Caching（按模型和推理框架支持情况）
 - [ ] **05 Logits、Sampling 与输出**
   - [ ] Logits：LM Head 输出的词表分数，尚非概率
-  - [ ] Sampling：Temperature（调节概率分布）→ Softmax → Top-k / Top-p 等过滤 → 选择 Token；也可采用 Greedy
+  - [ ] Sampling：按生成策略对 Logits 做 Temperature 缩放、Top-k / Top-p 等过滤及概率归一化，再选出 Token；也可采用 Greedy（具体处理顺序依框架而异）
   - [ ] Temperature / Top-p 主要影响 Token 选择策略，不直接改变已完成的 Transformer 前向计算；选出不同 Token 会影响后续 Decode 的输入
   - [ ] Detokenization：将生成的 Token ID 逐步还原为文本
   - [ ] Stream：服务端可增量发送生成文本；流式传输不等于提前完成整次推理
