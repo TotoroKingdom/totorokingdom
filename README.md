@@ -169,14 +169,16 @@
 
 ### LLM 推理
 
-* [ ] 自回归生成
-* [ ] Prefill / Decode
-* [ ] KV Cache
+* [ ] Tokenizer   Text --> Token ID
+* [ ] Embedding   Token ID --> Vector
+* [ ] Prefill
+* [ ] Transfoer
+* [ ] Q K V
+* [ ] Attention
+* [ ] FFN
+* [ ] Decode
+* [ ] Logits
 * [ ] Sampling
-* [ ] FlashAttention
-* [ ] PagedAttention
-* [ ] Continuous Batching
-* [ ] Quantization
 * [ ] vLLM
 * [ ] TTFT / TPOT / TPS
 * [ ] GPU 显存分析
