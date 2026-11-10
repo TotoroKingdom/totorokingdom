@@ -295,19 +295,24 @@ flowchart TD
 
 ---
 
-## 6. 后续
+## 6. 前端
 
-### LLM 训练与对齐（第三层）
-
-* [ ] 自监督预训练：Next Token Prediction / Causal Language Modeling
-* [ ] 训练数据：预训练语料、数据质量、Token 与训练目标
-* [ ] SFT：监督微调（Instruction → Response）
-* [ ] LoRA / QLoRA：参数高效微调
-* [ ] DPO：基于偏好数据的直接偏好优化
-* [ ] 强化学习基础：MDP、Policy、Value、Reward、探索与利用
-* [ ] 奖励信号：Reward Model / Verifiable Reward
-* [ ] PPO / GRPO：策略优化方法及其在 LLM 后训练中的应用
-* [ ] 对比 Pretraining / SFT / DPO / RL：数据、反馈信号与优化目标
+### Three.js
+* [ ] Scene
+* [ ] Camera
+* [ ] Rederer
+* [ ] Mesh
+* [ ] Animation
+* [ ] OrbitControls
+* [ ] Raycaster
+* [ ] GLTF
+* [ ] Lighting
+* [ ] Texture
+* [ ] Shadow
+* [ ] React
+* [ ] Next.js
+* [ ] Drei
+* [ ] State
 
 #### 实践
 
