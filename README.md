@@ -269,7 +269,7 @@ flowchart TD
 
 ---
 
-## 4. Agent 深化（第四层：AI Agent 工程）
+## 4. Agent Runtime && Eval
 
 * [ ] Workflow / Agent 边界
 * [ ] Router / Planner / Executor
@@ -283,15 +283,10 @@ flowchart TD
 
 ---
 
-## 5. 企业知识
+## 5. Harness
 
-* [ ] Ontology
-* [ ] Knowledge Graph
-* [ ] Entity / Relation Modeling
-* [ ] Graph Retrieval / GraphRAG
-* [ ] Metadata / Taxonomy
-* [ ] Knowledge Governance
-* [ ] 企业知识权限模型
+* [ ] 沙箱
+
 
 ---
 
