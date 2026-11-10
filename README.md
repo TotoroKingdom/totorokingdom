@@ -154,13 +154,15 @@
 
 ### Decoder-only（仅解码器）
 
+
+```mermaid
 flowchart TD
     A["输入文本：我喜欢人工智能"]
     B["Tokenizer：文本转 Token ID"]
     C["Token Embedding：转换为向量"]
     D["Position Information：注入位置信息"]
 
-    subgraph BLOCK["Decoder Block（只展示一层）"]
+    subgraph BLOCK["Decoder Block（仅展示一层）"]
         direction TB
         E["Causal Multi-Head Self-Attention"]
         F["Add & Norm"]
@@ -171,7 +173,7 @@ flowchart TD
     end
 
     I["Linear / LM Head：映射到词表"]
-    J["Logits：每个 Token 的预测分数"]
+    J["Logits：下一个 Token 的预测分数"]
     K["Softmax / Sampling：选择下一个 Token"]
     L["输出 Token：技术"]
 
@@ -180,6 +182,8 @@ flowchart TD
 
     style BLOCK fill:#eaf3ff,stroke:#6595d0,color:#193b67
     style L fill:#e2f3e8,stroke:#4c9b6c,color:#17532e
+```
+
 
 
 - [ ] **01 整体架构**
