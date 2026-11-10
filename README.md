@@ -152,7 +152,35 @@
 
 ### Transformer（第二层 → LLM）
 
-> 脑图主线：以现代 Decoder-only（仅解码器）自回归 LLM 为例。节点按“整体 → Block → 子层 → 操作”展开；不同模型的 Norm、位置编码和 FFN 实现可能不同。
+### Decoder-only（仅解码器）
+
+flowchart TD
+    A["输入文本：我喜欢人工智能"]
+    B["Tokenizer：文本转 Token ID"]
+    C["Token Embedding：转换为向量"]
+    D["Position Information：注入位置信息"]
+
+    subgraph BLOCK["Decoder Block（只展示一层）"]
+        direction TB
+        E["Causal Multi-Head Self-Attention"]
+        F["Add & Norm"]
+        G["Feed Forward Network（FFN）"]
+        H["Add & Norm"]
+
+        E --> F --> G --> H
+    end
+
+    I["Linear / LM Head：映射到词表"]
+    J["Logits：每个 Token 的预测分数"]
+    K["Softmax / Sampling：选择下一个 Token"]
+    L["输出 Token：技术"]
+
+    A --> B --> C --> D --> E
+    H --> I --> J --> K --> L
+
+    style BLOCK fill:#eaf3ff,stroke:#6595d0,color:#193b67
+    style L fill:#e2f3e8,stroke:#4c9b6c,color:#17532e
+
 
 - [ ] **01 整体架构**
   - [ ] Token IDs → Token Embedding（词嵌入）→ Hidden States（隐藏状态）
